@@ -1,0 +1,11 @@
+.onboardingskip p{
+	color: #6e1c22;
+	position: absolute;
+	margin-left: 85%;
+	z-index: 1;
+	font-family: Arial;
+}
+.onboardingskip a{
+	color: #6e1c22;
+	text-decoration: none;
+}

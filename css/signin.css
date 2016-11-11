@@ -1,0 +1,61 @@
+.logo{
+	margin-top:100px;
+	text-align: center;
+}
+
+.checks{
+	width: 100%;
+	background-color: #fff;
+	border-radius: 5px;
+	border: 2px solid #6f1c24;
+	margin:5px;
+}
+.skip{
+	margin-top: 20px;
+	margin-left: 70%;
+	width: 30%;
+	color:#6f1c24;
+}
+.skip p{
+	font-size: 18px;
+	display: inline-block;
+}
+.skip a{
+	color:#6f1c24; 
+}
+.signin{
+  text-align: center;
+}
+.signinbtn{
+	text-decoration: none;
+	height: 48px;
+	display: inline-block;
+	text-align: center;
+	margin-top: 30px;
+	padding:5px 90px; 
+	border-radius: 30px;
+	cursor: pointer;
+	color: #fff;	
+	background: #6f1c23;
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 48px;	
+}
+.signinbtn:hover,.btn-click{
+	border: 2px solid #858585;
+}
+.signinbtn a{
+	text-decoration: none;	
+}
+.account{
+	text-align: center;
+	margin-top: 20px;
+	width: 100%;
+	color:#6f1c24;
+}
+.account p{
+	margin:30px;
+	font-size: 18px;
+	display: inline-block;
+	color:#6f1c24;
+}
