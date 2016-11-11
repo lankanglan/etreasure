@@ -3,25 +3,64 @@
 	text-align: center;
 }
 
-.checks{
+.signin{
+	background: #6f1c24;
 	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.signin ul li{
+   display: inline-block;
+	width: 100%;
+
+	margin: 5px;
+}
+.name{
+	position: relative;
+	width: 100%;
+}
+.signin ul li img{
+	vertical-align: -webkit-baseline-middle;
+}
+.signin ul .name{
+	width: 100%;
+	line-height: 48px;
+	position: relative;
+}
+.checks{
+	margin-left: 10%;
+	text-align: center;
+	width: 80%;
 	background-color: #fff;
 	border-radius: 5px;
-	border: 2px solid #6f1c24;
-	margin:5px;
+}
+.signin ul .name .checks img{
+	vertical-align: middle;
+	margin-left: 5px;
+}
+.signin ul .name .checks input{
+	width: 85%;
+	line-height: 48px;
+	border:none;
+}
+.signup{
+	background: #6f1c24;
+	width: 100%;
+	margin: 0 auto;
+	height: 310px;
 }
 .skip{
-	margin-top: 20px;
+	font-family: Arial;
 	margin-left: 70%;
 	width: 30%;
-	color:#6f1c24;
+	color:#fff;
 }
 .skip p{
 	font-size: 18px;
 	display: inline-block;
 }
 .skip a{
-	color:#6f1c24; 
+	color:#fff; 
 }
 .signin{
   text-align: center;
@@ -31,12 +70,11 @@
 	height: 48px;
 	display: inline-block;
 	text-align: center;
-	margin-top: 30px;
 	padding:5px 90px; 
 	border-radius: 30px;
 	cursor: pointer;
-	color: #fff;	
-	background: #6f1c23;
+	color: #6f1c24;	
+	background: #fff;
 	font-family: Arial;
 	font-size: 16px;
 	line-height: 48px;	
@@ -48,14 +86,44 @@
 	text-decoration: none;	
 }
 .account{
-	text-align: center;
-	margin-top: 20px;
+
+	font-family: Arial;
+     display: inline-block;
 	width: 100%;
-	color:#6f1c24;
+	color:#000;
+		line-height: 3px;
 }
 .account p{
-	margin:30px;
-	font-size: 18px;
+		margin-left: 2px;
+	color:#000;
+	font-size: 16px;
 	display: inline-block;
-	color:#6f1c24;
+}
+.account .newaccount{
+	margin-left:40%;
+	color:#000;
+	font-size: 16px;
+	display: inline-block;
+}
+.account img{
+	margin-left:5px;
+}
+.terms{
+	margin-top:45px;
+	color:#fff;
+	width: 100%;
+		text-align: center;
+}
+.terms ul{
+	font-size: 12px;
+	color:#fff;
+	display: inline-block;
+	line-height: 12px;
+
+}
+.terms ul li{
+	line-height: 12px;
+	float: left;
+		text-align: center;
+	    margin: 10px 3px;
 }

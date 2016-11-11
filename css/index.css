@@ -31,7 +31,7 @@ body {
 	font-size:1em;
 	width: 100%;
 	height: 100%;
-	//min-width:375px;
+	min-width:375px;
 	min-height: 667px;
 	letter-spacing:.5px;
 	
@@ -280,42 +280,42 @@ body {
 .foot ul li .home1{
 	height: 30px;
 	background: url(../images/icons/HOMEa.png) center center no-repeat;
-	background-size: 20px;
+	background-size: 30px;
 }
 .foot ul li .home2{
 	height: 30px;
 	background: url(../images/icons/HOME.png) center center no-repeat;
-	background-size: 50% 100%;
+	background-size: 30px;
 }
 .foot ul li .store1{
 	height: 25px;
 	background: url(../images/icons/STORE.png) center center no-repeat;
-	background-size: 42% 100%;
+	background-size: 30px;
 }
 .foot ul li .store2{
 	height: 25px;
 	background: url(../images/icons/STOREa.png) center center no-repeat;
-	background-size: 42% 100%;
+	background-size: 30px;
 }
 .foot ul li .nations1{
 	height: 30px;
 	background: url(../images/icons/notification.png) center center no-repeat;
-	background-size: 50% 100%;
+	background-size: 30px;
 }
 .foot ul li .nations2{
 	height: 30px;
 	background: url(../images/icons/notificationa.png) center center no-repeat;
-	background-size: 50% 100%;
+	background-size: 30px;
 }
 .foot ul li .account1{
 	height: 26px;
 	background: url(../images/icons/copy.png) center center no-repeat;
-	background-size: 45% 100%;
+	background-size: 30px;
 }
 .foot ul li .account2{
 	height: 26px;
 	background: url(../images/icons/kkkk.png) center center no-repeat;
-	background-size: 45% 100%;
+	background-size: 30px;
 }
 .centers{
 	position: absolute;

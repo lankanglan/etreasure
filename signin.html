@@ -6,11 +6,16 @@
 <meta content="black" name="apple-mobile-web-app-status-bar-style">
 <meta content="telephone=no" name="format-detection">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" href="css/index.css" />
 <link rel="stylesheet" href="css/styles.css" />
 <link rel="stylesheet" href="css/signin.css" />
 <title>signin</title>
 <style type="text/css">
+<script>
+function myFunction() {
+    var x = document.getElementById("myPsw").value;
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
 
 </style>
 
@@ -20,42 +25,45 @@
 <div class="logo">
 <img src="images/logo.png" width="100px" />
 </div>
-	<div class="thead">
+	<div class="signin">
 		<ul>
-			<li><img src="images/icons/menu.png" width="30px"/></li>
-			<li class="about">
+			<li class="name">
 				<div class="checks">
 					<img src="images/icons/copy.png" alt="" width="20px" />
-					<input type="text" width="80%" />
+					<input type="text" placeholder="Username" width="80%" />
 				</div>
 			</li>
-			<li><img src="images/icons/cart.png" alt="" width="28px"/></li>
-		</ul>
-				<ul>
-			<li><img src="images/icons/menu.png" width="30px"/></li>
-			<li class="about">
+			<li class="name">
 				<div class="checks">
 					<img src="images/icons/padlock.png" alt="store.html" width="20px" />
-					<input type="text" width="80%" />
+					<input type="password" id="myPsw" value="psw123" width="80%" />
 				</div>
 			</li>
-			<li><img src="images/icons/cart.png" alt="" width="28px"/></li>
 		</ul>
+		</div>
+		<div class="signup">
 		<div class="skip">
 		<a href="newuser.html"><p>SKIP</p></a>
-		<img src="images/icons/arrow r.png" alt="" width="12px"/>
+		<img src="images/icons/back r.png" alt="" width="12px"/>
 		</div>
 		<div class="signin">
 		<a href="store.html" class="signinbtn">SIGN IN</a>
 		</div>
-		<div class="account">
-		<a href="info.html"><p>CREATE AN ACCONT</p>
-		<img src="images/icons/arrow r.png" alt="" width="12px"/></a>
+
+	
+		<div class="terms">
+		<ul>
+		<li><p>Privacy policy   /</p></li>
+		<li><p>Terms&coditions   /</p></li>
+		<li class="secuirity"><p>Secuirity center</p></li>
+		</ul>
 		</div>
-
-	</div>
-
-
-</div>
+        </div>
+		<div class="account">
+		<p>Contact us</p>
+		<a href="info.html"><p class="newaccount">Open an account</p>
+		<img src="images/icons/arrow r.png" alt="" width="8px"/></a>
+		</div>
+		
 </body>
 </html>

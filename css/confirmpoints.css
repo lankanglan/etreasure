@@ -52,7 +52,8 @@
 	font-family: Arial;
 	font-size: 15px;
 	line-height: 48px;
-	font-weight: 50;	
+	font-weight: 50;
+	text-decoration: none;	
 }
 .redeembtn a{
     text-decoration: none;
