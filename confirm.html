@@ -18,15 +18,6 @@
 
 </style>
 <script>
-	(function(){
-		var _w = document.documentElement.clientWidth;
-		var _fontsize = (_w / 640) * 20;
-		var style = document.createElement('style');
-		style.type = 'text/css';
-		style.innerHTML = 'body{font-size:' + _fontsize + 'px}';
-		document.getElementsByTagName('head').item(0).appendChild(style);
-		 
-	})();
 $(document).ready(function(){
 	touch.on('#home1', 'tap', function(ev){
 			 $('#home1').attr('class','home1');
@@ -94,7 +85,7 @@ $(document).ready(function(){
 	 			<p>Store</p>
 	 		</li></a>
 	 		<li></li>
-	 		<a href="10Notification.html"><li>
+	 		<a href="notification.html"><li>
 	 			<p id="nations1" class="nations1"></p>  
 	 			<p>Notification</p>
 	 		</li></a>

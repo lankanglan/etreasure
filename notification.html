@@ -1,45 +1,39 @@
 <!DOCTYPE html>
-<html >
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
 <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
 <meta content="yes" name="apple-mobile-web-app-capable">
 <meta content="black" name="apple-mobile-web-app-status-bar-style">
 <meta content="telephone=no" name="format-detection">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" href="css/index.css" />
-<link rel="stylesheet" href="css/styles.css" />
-<link rel="stylesheet" href="css/newuser.css" />
+<link rel="stylesheet" href="css/notification.css" />
+<link href="css/animations.css" rel="stylesheet" type="text/css">
 <script src="js/touch-0.2.14.min.js"></script>
 <script src="js/zepto.min.js"></script>
-<script type="text/javascript" src="js/jquery.min.js" ></script>
-<script type="text/javascript" src="js/yxMobileSlider.js" ></script>
-<title>store</title>
+<title>notification</title>
 <style type="text/css">
 
 </style>
 <script>
-	// (function(){
-	// 	var _w = document.documentElement.clientWidth;
-	// 	var _fontsize = (_w / 640) * 20;
-	// 	var style = document.createElement('style');
-	// 	style.type = 'text/css';
-	// 	style.innerHTML = 'body{font-size:' + _fontsize + 'px}';
-	// 	document.getElementsByTagName('head').item(0).appendChild(style);
+	(function(){
+		var _w = document.documentElement.clientWidth;
+		var _fontsize = (_w / 640) * 20;
+		var style = document.createElement('style');
+		style.type = 'text/css';
+		style.innerHTML = 'body{font-size:' + _fontsize + 'px}';
+		document.getElementsByTagName('head').item(0).appendChild(style);
 		 
-	// })();
+	})();
 	$(function(){
 		$(".cirle").click(function(){
 			$(".cirle").find("img").css("background-color","#fff")
 			var indx=$(this).parents("li").find(".shopCarts");
 			$(".cirle").find("img").attr("src","images/icons/more.png");
 			$(this).find("img").attr("src","images/icons/morea.png"); 
-			if($(indx).hasClass("hide")){
-				$(".shopCarts").addClass("hide");
-	 			$(indx).removeClass("hide");
-	 		}else{
-	 			$(indx).addClass("hide");
-	 			$(".cirle").find("img").attr("src","images/icons/more.png");
-	 		}
+			$(".shopCarts").addClass("hide");
+	 		$(indx).removeClass("hide");
 		});
 	});
 $(document).ready(function(){
@@ -71,6 +65,20 @@ $(document).ready(function(){
 			 $('#account1').attr('class','account2');
 			 
 		 });
+		 touch.on('#menuNav ul li', 'tap', function(ev){
+			$("#menuNav ul li").removeClass('choseN');
+			$(this).addClass('choseN');
+		 });
+		touch.on('#menus', 'tap', function(ev){
+			  $(".leftMenu").removeClass("hide");
+			  $(".leftMenu").removeClass("choses");
+			 
+		 });
+		 touch.on('#colse', 'tap', function(ev){
+			  $(".leftMenu").addClass("choses");
+			  
+			 
+		 });
 	});
 </script>
 </head>
@@ -79,7 +87,7 @@ $(document).ready(function(){
 <div class="header">
 	<div class="thead">
 		<ul>
-			<li><img src="images/icons/menu.png" width="30px"/></li>
+			<li><img id="menus" src="images/icons/menu.png" width="30px"/></li>
 			<li class="about">
 				<div class="checks">
 					<img src="images/icons/_ copy.png" alt="" width="20px" />
@@ -90,45 +98,49 @@ $(document).ready(function(){
 		</ul>
 	</div>
 </div>
-<div class="banner">
-				<div class="slider">
-                        <ul>
-                         <li>
-                                    <a href="#"><img class="imgs" src="images/ad1.png" width="100%" /></a>
-                                </li>
-                                <li>
-                                    <a href="#"><img class="imgs" src="images/ad2.png" width="100%" /></a>
-                                </li>
-                            
-                                <li>
-                                    <a href="#"><img class="imgs" src="images/ad3.png" width="100%" /></a>
-                                </li>  
-                        </ul>
-                </div>
-				<script>
-                    $(function(){
-                        $(".slider").yxMobileSlider({width:380,height:180,during:1000});
-                    })   
-                </script>
+<div class="contents" style="margin-bottom: 110px;">
+	<div class="natMenus" id="menuNav">
+		<ul>
+			<li class="choseN">UNREAD</li>
+			<li>COUPONS</li>
+			<li>POINTS</li>
+			<li>DATE</li>
+		</ul>
+	</div>
+	<div class="nations">
+		<ul>
+			<li class="fnews">
+				<p><span><img src="images/icons/warning copy.png" width="30px"/></span><span class="dates">TODAY</span></p>
+				<p><span class="did">● </span>Your pamper coupon will expire in 2 days.</p>
+			</li>
+			<li class="fnews">
+				<p><span><img src="images/icons/points.png" width="30px"/></span><span class="dates">TODAY</span></p>
+				<p><span class="did">● </span>Your donation get 50 points..</p>
+			</li>
+			<li class="agos">
+				<p><span><img src="images/icons/COUPAN copy.png" width="30px"/></span><span class="dates">2 DAY AGO</span></p>
+				<p>You buy nike coupons with 300 points.</p>
+			</li>
+			<li class="agos">
+				<p><span><img src="images/horn.png" width="30px"/></span><span class="dates">9-1-2016</span></p>
+				<p>we have new coupons on your list.</p>
+			</li>
+			<li class="agos">
+				<p><span><img src="images/horn.png" width="30px"/></span><span class="dates">9-1-2016</span></p>
+				<p>we have new coupons on your list.</p>
+			</li>
+			<li class="agos">
+				<p><span><img src="images/horn.png" width="30px"/></span><span class="dates">9-1-2016</span></p>
+				<p>we have new coupons on your list.</p>
+			</li>
+		</ul>
+	</div>
 </div>
-
-<div class="contents" style="margin-bottom: 30px;">
-	<div class="location">
-                 <a href="https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=goodwill%20locations&oq=goodwill%20locations&aqs=chrome..69i57j0l5.7446j0j7"><img class="imgs" src="images/icons/placeholder.png" width="15%" /></a></div>
-         <div class="nearby"><h2>GOODWILL NEARBY</h2>
-                  <p>Make your donations today!</p>
-                </div>
-  </div>
-        <div class="newaccount">
-		<div class="accountbtn">
-		<a href="info.html"><p>CREATE AN ACCONT</p></a>
-		</div>
-		</div>
 <div class="footer">
 	 <div class="foot">
 	 	<ul>
 	 		<a href="home.html"><li>
-	 			<p id="home1" class="home1"></p> 
+	 			<p id="home1" class="home2"></p> 
 	 			<p>Home</p>
 	 		</li></a>
 	 		<a href="store.html"><li>
@@ -137,7 +149,7 @@ $(document).ready(function(){
 	 		</li></a>
 	 		<li></li>
 	 		<a href="notification.html"><li>
-	 			<p id="nations1" class="nations1"></p>  
+	 			<p id="nations1" class="nations2"></p>  
 	 			<p>Notification</p>
 	 		</li></a>
 	 		<a href="account.html"><li>
@@ -147,7 +159,7 @@ $(document).ready(function(){
 	 	</ul>
 	 </div>
 	 <div class="centers">
- 		<a href="scan.html"><img src="images/center.png" alt=""/></a>
+ 		<img src="images/center.png"/> 
 	 </div>
 </div>
 </div>

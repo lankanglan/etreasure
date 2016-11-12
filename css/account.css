@@ -1,0 +1,45 @@
+.htops{
+	width:100%;
+	text-align: center;
+	color: #FFFFFF;
+	background-color:#6f1c23 ;
+	margin-top: -15px;
+	padding-bottom: 10px;
+}
+.htops p{
+	margin-bottom: 7px;
+	font-size: 16px;
+}
+.htops p:last-child{
+	margin-top: 20px;
+}
+.accouts{
+	width: 100%;
+	margin: 0 auto;
+}
+.accouts ul{
+	width: 90%;
+	margin: 0 auto;
+}
+.accouts ul li{
+	margin-top:15px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 8px;
+	position: relative;
+	padding-left: 3px;
+}
+.accouts ul li:last-child{
+	border-bottom: none;
+}
+.accouts ul li p img{
+	vertical-align: middle;
+}
+.accouts ul li p .wenZ{
+	margin-left: 12px;
+	color: #6f1c23;
+	font-size: 15px;
+}
+.arrowR{
+	position: absolute;
+	right: 10px;
+}

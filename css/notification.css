@@ -1,0 +1,59 @@
+.natMenus{
+	width: 100%;
+	margin: 0 auto;
+	background-color: #ebebeb;
+	padding-top: 15px;
+}
+.natMenus ul li{
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+	padding-bottom: 8px;
+	font-size: 14px;
+	color: #6f1c23;
+}
+.natMenus ul li:last-child{
+	float: right;
+}
+.choseN{
+	border-bottom: 1px solid #6f1c23;
+}
+.nations {
+	width: 94%;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+.nations ul li{
+	width: 100%;
+	margin-top: 8px;
+	border-bottom: 1px solid #AAAAAA;
+}
+.nations ul li p{
+	width: 92%;
+	margin: 0 auto;
+	margin-bottom: 6px;
+	position: relative;
+	font-size: 14px;
+	word-spacing: 2px;
+}
+.nations ul li p span{
+	vertical-align: bottom;
+}
+.nations ul li p span img{
+	vertical-align: bottom;
+}
+.dates{
+	position: absolute;
+	right: 5%;
+	top:35%;
+}
+.fnews{
+	color: #000000;
+}
+.did{
+	color:#6f1c23 ;
+	font-size: 16px;
+}
+.nations ul .agos p{
+	padding-left: 20px;
+}
