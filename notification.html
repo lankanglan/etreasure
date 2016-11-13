@@ -38,7 +38,7 @@
 	});
 $(document).ready(function(){
 	touch.on('#home1', 'tap', function(ev){
-			 $('#home1').attr('class','home1');
+			 $('#home1').attr('class','home2');
 			 $('#store1').attr('class','store1');
 			 $('#nations1').attr('class','nations1');
 			 $('#account1').attr('class','account1');
@@ -52,7 +52,7 @@ $(document).ready(function(){
 			 
 		 });
 		 touch.on('#nations1', 'tap', function(ev){
-			 $('#home1').attr('class','home2');
+			 $('#home1').attr('class','home1');
 			 $('#store1').attr('class','store1');
 			 $('#nations1').attr('class','nations2');
 			 $('#account1').attr('class','account1');
@@ -62,9 +62,10 @@ $(document).ready(function(){
 			 $('#home1').attr('class','home2');
 			 $('#store1').attr('class','store1');
 			 $('#nations1').attr('class','nations1');
-			 $('#account1').attr('class','account2');
-			 
+			 $('#account1').attr('class','account2'); 
 		 });
+
+
 		 touch.on('#menuNav ul li', 'tap', function(ev){
 			$("#menuNav ul li").removeClass('choseN');
 			$(this).addClass('choseN');
@@ -122,15 +123,15 @@ $(document).ready(function(){
 				<p>You buy nike coupons with 300 points.</p>
 			</li>
 			<li class="agos">
-				<p><span><img src="images/horn.png" width="30px"/></span><span class="dates">9-1-2016</span></p>
+				<p><span><img src="images/icons/horn.png" width="30px"/></span><span class="dates">9-1-2016</span></p>
 				<p>we have new coupons on your list.</p>
 			</li>
 			<li class="agos">
-				<p><span><img src="images/horn.png" width="30px"/></span><span class="dates">9-1-2016</span></p>
+				<p><span><img src="images/icons/horn.png" width="30px"/></span><span class="dates">9-1-2016</span></p>
 				<p>we have new coupons on your list.</p>
 			</li>
 			<li class="agos">
-				<p><span><img src="images/horn.png" width="30px"/></span><span class="dates">9-1-2016</span></p>
+				<p><span><img src="images/icons/horn.png" width="30px"/></span><span class="dates">9-1-2016</span></p>
 				<p>we have new coupons on your list.</p>
 			</li>
 		</ul>
@@ -140,7 +141,7 @@ $(document).ready(function(){
 	 <div class="foot">
 	 	<ul>
 	 		<a href="home.html"><li>
-	 			<p id="home1" class="home2"></p> 
+	 			<p id="home1" class="home1"></p> 
 	 			<p>Home</p>
 	 		</li></a>
 	 		<a href="store.html"><li>

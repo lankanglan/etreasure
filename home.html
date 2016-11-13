@@ -17,16 +17,17 @@
 <style type="text/css">
 
 </style>
+</style>
 <script>
-	// (function(){
-	// 	var _w = document.documentElement.clientWidth;
-	// 	var _fontsize = (_w / 640) * 20;
-	// 	var style = document.createElement('style');
-	// 	style.type = 'text/css';
-	// 	style.innerHTML = 'body{font-size:' + _fontsize + 'px}';
-	// 	document.getElementsByTagName('head').item(0).appendChild(style);
+	(function(){
+		var _w = document.documentElement.clientWidth;
+		var _fontsize = (_w / 640) * 20;
+		var style = document.createElement('style');
+		style.type = 'text/css';
+		style.innerHTML = 'body{font-size:' + _fontsize + 'px}';
+		document.getElementsByTagName('head').item(0).appendChild(style);
 		 
-	// })();
+	})();
 	$(function(){
 		$(".cirle").click(function(){
 			$(".cirle").find("img").css("background-color","#fff")
@@ -43,29 +44,28 @@
 		});
 	});
 $(document).ready(function(){
-	touch.on('#home1', 'tap', function(ev){
-			 $('#home1').attr('class','home1');
+	touch.on('#home2', 'tap', function(ev){
+			 $('#home2').attr('class','home1');
 			 $('#store1').attr('class','store1');
 			 $('#nations1').attr('class','nations1');
 			 $('#account1').attr('class','account1');
-			 
 		 });
 		 touch.on('#store1', 'tap', function(ev){
-			 $('#home1').attr('class','home2');
+			 $('#home2').attr('class','home1');
 			 $('#store1').attr('class','store2');
 			 $('#nations1').attr('class','nations1');
 			 $('#account1').attr('class','account1');
 			 
 		 });
 		 touch.on('#nations1', 'tap', function(ev){
-			 $('#home1').attr('class','home2');
+			 $('#home2').attr('class','home1');
 			 $('#store1').attr('class','store1');
 			 $('#nations1').attr('class','nations2');
 			 $('#account1').attr('class','account1');
 			 
 		 });
 		 touch.on('#account1', 'tap', function(ev){
-			 $('#home1').attr('class','home2');
+			 $('#home2').attr('class','home1');
 			 $('#store1').attr('class','store1');
 			 $('#nations1').attr('class','nations1');
 			 $('#account1').attr('class','account2');
@@ -160,7 +160,7 @@ $(document).ready(function(){
 							<img src="images/arrowbottom.png" width="20px" />
 						</span>
 					</div>
-					<p class="p2"><span>30 points</span><span class="cirle"><span class="ms">store only</span><img src="images/icons/more.png" width="20px"/></span></p>
+					<p class="p2"><span>30 points</span><span class="cirle"><span class="ms">store only</span><img src="images/icons/more.png" width="30px"/></span></p>
 					
 				</li>
 			</ul>
@@ -184,7 +184,7 @@ $(document).ready(function(){
 							<img src="images/arrowbottom.png" width="20px" />
 						</span>
 					</div>
-					<p class="p2"><span>1000 points</span><span class="cirle"><span class="ms">online sale</span><img src="images/icons/more.png" width="20px"/></span></p>
+					<p class="p2"><span>1000 points</span><span class="cirle"><span class="ms">online sale</span><img src="images/icons/more.png" width="30px"/></span></p>
 				</li>
 				
 			</ul>
@@ -208,7 +208,7 @@ $(document).ready(function(){
 							<img src="images/arrowbottom.png" width="20px" />
 						</span>
 					</div>
-					<p class="p2"><span>60 points</span><span class="cirle"><span class="ms">online sale</span><img src="images/icons/more.png" width="20px"/></span></p>
+					<p class="p2"><span>60 points</span><span class="cirle"><span class="ms">online sale</span><img src="images/icons/more.png" width="30px"/></span></p>
 					
 				</li>
 			</ul>
@@ -231,7 +231,7 @@ $(document).ready(function(){
 							<img src="images/arrowbottom.png" width="20px" />
 						</span>
 					</div>
-					<p class="p2"><span>320 points</span><span class="cirle"><span class="ms">online sale</span><img src="images/icons/more.png" width="20px"/></span></p>
+					<p class="p2"><span>320 points</span><span class="cirle"><span class="ms">online sale</span><img src="images/icons/more.png" width="30px"/></span></p>
 					
 				</li>
 			</ul>
@@ -243,7 +243,7 @@ $(document).ready(function(){
 	 <div class="foot">
 	 	<ul>
 	 		<a href="home.html"><li>
-	 			<p id="home1" class="home1"></p> 
+	 			<p id="home2" class="home2"></p> 
 	 			<p>Home</p>
 	 		</li></a>
 	 		<a href="store.html"><li>

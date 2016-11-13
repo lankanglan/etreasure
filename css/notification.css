@@ -16,7 +16,7 @@
 	float: right;
 }
 .choseN{
-	border-bottom: 1px solid #6f1c23;
+	border-bottom: 2px solid #6f1c23;
 }
 .nations {
 	width: 94%;
@@ -26,7 +26,7 @@
 .nations ul li{
 	width: 100%;
 	margin-top: 8px;
-	border-bottom: 1px solid #AAAAAA;
+	border-bottom: 2px solid #AAAAAA;
 }
 .nations ul li p{
 	width: 92%;

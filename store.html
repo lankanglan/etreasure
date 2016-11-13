@@ -27,8 +27,6 @@
 
 </style>
 <script>
-
-
 	(function(){
 		var _w = document.documentElement.clientWidth;
 		var _fontsize = (_w / 640) * 20;
@@ -80,6 +78,16 @@ $(document).ready(function(){
 			 $('#store1').attr('class','store1');
 			 $('#nations1').attr('class','nations1');
 			 $('#account1').attr('class','account2');
+			 
+		 });
+		touch.on('#menus', 'tap', function(ev){
+			  $(".leftMenu").removeClass("hide");
+			  $(".leftMenu").removeClass("choses");
+			 
+		 });
+		 touch.on('#colse', 'tap', function(ev){
+			  $(".leftMenu").addClass("choses");
+			  
 			 
 		 });
 	});
@@ -264,7 +272,7 @@ $(document).ready(function(){
 	 			<p>Home</p>
 	 		</li></a>
 	 		<a href="store.html"><li>
-	 			<p id="store1" class="store1"></p>  
+	 			<p id="store2" class="store2"></p>  
 	 			<p>Store</p>
 	 		</li></a>
 	 		<li></li>
