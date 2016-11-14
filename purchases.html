@@ -8,11 +8,11 @@
 <meta content="telephone=no" name="format-detection">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" href="css/index.css" />
-<link rel="stylesheet" href="css/notification.css" />
 <link href="css/animations.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/accountbranches.css" />
 <script src="js/touch-0.2.14.min.js"></script>
 <script src="js/zepto.min.js"></script>
-<title>notification</title>
+<title>coupons</title>
 <style type="text/css">
 
 </style>
@@ -38,7 +38,7 @@
 	});
 $(document).ready(function(){
 	touch.on('#home1', 'tap', function(ev){
-			 $('#home1').attr('class','home2');
+			 $('#home1').attr('class','home1');
 			 $('#store1').attr('class','store1');
 			 $('#nations1').attr('class','nations1');
 			 $('#account1').attr('class','account1');
@@ -52,7 +52,7 @@ $(document).ready(function(){
 			 
 		 });
 		 touch.on('#nations1', 'tap', function(ev){
-			 $('#home1').attr('class','home1');
+			 $('#home1').attr('class','home2');
 			 $('#store1').attr('class','store1');
 			 $('#nations1').attr('class','nations2');
 			 $('#account1').attr('class','account1');
@@ -62,11 +62,10 @@ $(document).ready(function(){
 			 $('#home1').attr('class','home2');
 			 $('#store1').attr('class','store1');
 			 $('#nations1').attr('class','nations1');
-			 $('#account1').attr('class','account2'); 
+			 $('#account1').attr('class','account2');
+			 
 		 });
-
-
-		 touch.on('#menuNav ul li', 'tap', function(ev){
+		touch.on('#menuNav ul li', 'tap', function(ev){
 			$("#menuNav ul li").removeClass('choseN');
 			$(this).addClass('choseN');
 		 });
@@ -102,65 +101,87 @@ $(document).ready(function(){
 <div class="contents" style="margin-bottom: 110px;">
 	<div class="natMenus" id="menuNav">
 		<ul>
-			<li class="choseN">UNREAD</li>
-			<li>COUPONS</li>
-			<li>POINTS</li>
-			<li>DATE</li>
+			<li class="choseN">AVAILABLE</li>
+			<li>EXPIRING</li>
+			<li>NEARBY</li>
+			<li>ALL</li>
 		</ul>
 	</div>
-	<div class="nations">
-		<ul>
-			<li class="fnews">
-				<p><span><img src="images/icons/warning copy.png" width="30px"/></span><span class="dates">TODAY</span></p>
-				<p><span class="did">● </span>Your pamper coupon will expire in 2 days.</p>
-			</li>
-			<li class="fnews">
-				<p><span><img src="images/icons/points.png" width="30px"/></span><span class="dates">TODAY</span></p>
-				<p><span class="did">● </span>Your donation get 50 points..</p>
-			</li>
-			<li class="agos">
-				<p><span><img src="images/icons/COUPAN copy.png" width="30px"/></span><span class="dates">2 DAY AGO</span></p>
-				<p>You buy nike coupons with 300 points.</p>
-			</li>
-			<li class="agos">
-				<p><span><img src="images/icons/horn.png" width="30px"/></span><span class="dates">9-1-2016</span></p>
-				<p>we have new coupons on your list.</p>
-			</li>
-			<li class="agos">
-				<p><span><img src="images/icons/horn.png" width="30px"/></span><span class="dates">9-1-2016</span></p>
-				<p>we have new coupons on your list.</p>
-			</li>
-			<li class="agos">
-				<p><span><img src="images/icons/horn.png" width="30px"/></span><span class="dates">9-1-2016</span></p>
-				<p>we have new coupons on your list.</p>
-			</li>
-		</ul>
+	<div class="purchases">
+		<div class="cpsp">
+			<ul>
+				<li>
+					<img src="images/shop1.png" width="80%" />
+				</li>
+				<li>
+					<p class="cpf"><img src="images/icons/time.png" width="20px"/><span>EXPIRES <span>9/21/2016</span></span></p>
+					<p class="cps">Pamper Diapers Coupons $5.00 Off</p>
+					<p class="cpt">store only</p>
+				</li>
+			</ul>
+		</div>
+		<div class="cpsp">
+			<ul>
+				<li>
+					<img src="images/shop1.png" width="80%" />
+				</li>
+				<li>
+					<p class="cpf"><img src="images/icons/time.png" width="20px"/><span>EXPIRES <span>9/21/2016</span></span></p>
+					<p class="cps">Pamper Diapers Coupons $5.00 Off</p>
+					<p class="cpt">store only</p>
+				</li>
+			</ul>
+		</div>
+		<div class="cpsp">
+			<ul>
+				<li>
+					<img src="images/shop1.png" width="80%" />
+				</li>
+				<li>
+					<p class="cpf"><img src="images/icons/time.png" width="20px"/><span>EXPIRES <span>9/21/2016</span></span></p>
+					<p class="cps">Pamper Diapers Coupons $5.00 Off</p>
+					<p class="cpt">store only</p>
+				</li>
+			</ul>
+		</div>
+		<div class="cpsp">
+			<ul>
+				<li>
+					<img src="images/shop1.png" width="80%" />
+				</li>
+				<li>
+					<p class="cpf"><img src="images/icons/time.png" width="20px"/><span>EXPIRES <span>9/21/2016</span></span></p>
+					<p class="cps">Pamper Diapers Coupons $5.00 Off</p>
+					<p class="cpt">store only</p>
+				</li>
+			</ul>
+		</div>
 	</div>
 </div>
 <div class="footer">
 	 <div class="foot">
 	 	<ul>
-	 		<a href="home.html"><li>
+	 		<li>
 	 			<p id="home1" class="home1"></p> 
 	 			<p>Home</p>
-	 		</li></a>
-	 		<a href="store.html"><li>
+	 		</li>
+	 		<li>
 	 			<p id="store1" class="store1"></p>  
 	 			<p>Store</p>
-	 		</li></a>
+	 		</li>
 	 		<li></li>
-	 		<a href="notification.html"><li>
-	 			<p id="nations1" class="nations2"></p>  
+	 		<li>
+	 			<p id="nations1" class="nations1"></p>  
 	 			<p>Notification</p>
-	 		</li></a>
-	 		<a href="account.html"><li>
+	 		</li>
+	 		<li>
 	 			<p id="account1" class="account1"></p>
 	 			<p>Account</p>
-	 		</li></a>
+	 		</li>
 	 	</ul>
 	 </div>
 	 <div class="centers">
- 		<a href="scan.html"><img src="images/center.png" alt=""/></a>
+ 		<img src="images/center.png"/> 
 	 </div>
 </div>
 </div>

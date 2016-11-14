@@ -8,11 +8,11 @@
 <meta content="telephone=no" name="format-detection">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" href="css/index.css" />
-<link rel="stylesheet" href="css/notification.css" />
+<link rel="stylesheet" href="css/product.css" />
 <link href="css/animations.css" rel="stylesheet" type="text/css">
 <script src="js/touch-0.2.14.min.js"></script>
 <script src="js/zepto.min.js"></script>
-<title>notification</title>
+<title>product</title>
 <style type="text/css">
 
 </style>
@@ -32,8 +32,13 @@
 			var indx=$(this).parents("li").find(".shopCarts");
 			$(".cirle").find("img").attr("src","images/icons/more.png");
 			$(this).find("img").attr("src","images/icons/morea.png"); 
-			$(".shopCarts").addClass("hide");
-	 		$(indx).removeClass("hide");
+			if($(indx).hasClass("hide")){
+				$(".shopCarts").addClass("hide");
+	 			$(indx).removeClass("hide");
+	 		}else{
+	 			$(indx).addClass("hide");
+	 			$(".cirle").find("img").attr("src","images/icons/more.png");
+	 		}
 		});
 	});
 $(document).ready(function(){
@@ -45,7 +50,7 @@ $(document).ready(function(){
 			 
 		 });
 		 touch.on('#store1', 'tap', function(ev){
-			 $('#home1').attr('class','home2');
+			 $('#home1').attr('class','home1');
 			 $('#store1').attr('class','store2');
 			 $('#nations1').attr('class','nations1');
 			 $('#account1').attr('class','account1');
@@ -59,16 +64,11 @@ $(document).ready(function(){
 			 
 		 });
 		 touch.on('#account1', 'tap', function(ev){
-			 $('#home1').attr('class','home2');
+			 $('#home1').attr('class','home1');
 			 $('#store1').attr('class','store1');
 			 $('#nations1').attr('class','nations1');
-			 $('#account1').attr('class','account2'); 
-		 });
-
-
-		 touch.on('#menuNav ul li', 'tap', function(ev){
-			$("#menuNav ul li").removeClass('choseN');
-			$(this).addClass('choseN');
+			 $('#account1').attr('class','account2');
+			 
 		 });
 		touch.on('#menus', 'tap', function(ev){
 			  $(".leftMenu").removeClass("hide");
@@ -100,41 +100,27 @@ $(document).ready(function(){
 	</div>
 </div>
 <div class="contents" style="margin-bottom: 110px;">
-	<div class="natMenus" id="menuNav">
-		<ul>
-			<li class="choseN">UNREAD</li>
-			<li>COUPONS</li>
-			<li>POINTS</li>
-			<li>DATE</li>
-		</ul>
-	</div>
-	<div class="nations">
-		<ul>
-			<li class="fnews">
-				<p><span><img src="images/icons/warning copy.png" width="30px"/></span><span class="dates">TODAY</span></p>
-				<p><span class="did">● </span>Your pamper coupon will expire in 2 days.</p>
-			</li>
-			<li class="fnews">
-				<p><span><img src="images/icons/points.png" width="30px"/></span><span class="dates">TODAY</span></p>
-				<p><span class="did">● </span>Your donation get 50 points..</p>
-			</li>
-			<li class="agos">
-				<p><span><img src="images/icons/COUPAN copy.png" width="30px"/></span><span class="dates">2 DAY AGO</span></p>
-				<p>You buy nike coupons with 300 points.</p>
-			</li>
-			<li class="agos">
-				<p><span><img src="images/icons/horn.png" width="30px"/></span><span class="dates">9-1-2016</span></p>
-				<p>we have new coupons on your list.</p>
-			</li>
-			<li class="agos">
-				<p><span><img src="images/icons/horn.png" width="30px"/></span><span class="dates">9-1-2016</span></p>
-				<p>we have new coupons on your list.</p>
-			</li>
-			<li class="agos">
-				<p><span><img src="images/icons/horn.png" width="30px"/></span><span class="dates">9-1-2016</span></p>
-				<p>we have new coupons on your list.</p>
-			</li>
-		</ul>
+	<div class="firstp">
+		<p>You have <span style="font-size: 20px;">1930</span> points</p>
+	</div> 
+	<div class="products">
+		<div class="proJ">
+			<p><img src="images/shop1.png" width="75%"/></p>
+			<p>Pamper Diapers in target $5.00 off</p>
+			<p class="pmoney"><span>30 points</span> <span class="cirle"><span class="ms">store only</span></span></p>
+			<p class="sf"><span><img src="images/icons/favor.png" width="30px" /></span><span><img src="images/icons/share.png" width="30px"/></span></p>
+		</div>
+		<div class="buyP">
+			<p class="Chosenumber"><span><img src="images/icons/MINU copy.png" width="35"/></span><span class="numbers">1qty.</span><span><img src="images/icons/ADD copy.png" width="35"/></span></p>
+			<p><input type="button" class="pChose" name="pbuy" id="" value="BUY IT NOW" /></p>
+			<p><input type="button" name="Acart" id="" value="ADD TO CART" /></p>
+		</div>
+		<div class="pjs">
+			<p>ITEM SPECIFICS:</p>
+			<p>Category:Baby</p>
+			<p>Expiration:12/22/16</p>
+			<p>Description:Pamper diaper coupons can be as high as $5.00 off,Look for the best Huggies deals at Target,CVS,Walmart Walgreens.</p>
+		</div>
 	</div>
 </div>
 <div class="footer">
@@ -150,7 +136,7 @@ $(document).ready(function(){
 	 		</li></a>
 	 		<li></li>
 	 		<a href="notification.html"><li>
-	 			<p id="nations1" class="nations2"></p>  
+	 			<p id="nations1" class="nations1"></p>  
 	 			<p>Notification</p>
 	 		</li></a>
 	 		<a href="account.html"><li>
@@ -160,9 +146,10 @@ $(document).ready(function(){
 	 	</ul>
 	 </div>
 	 <div class="centers">
- 		<a href="scan.html"><img src="images/center.png" alt=""/></a>
+ 		<img src="images/center.png"/> 
 	 </div>
 </div>
 </div>
+
 </body>
 </html>

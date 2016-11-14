@@ -15,7 +15,7 @@
 }
 .accouts{
 	width: 100%;
-	margin: 0 auto;
+	margin: 20px auto;
 }
 .accouts ul{
 	width: 90%;
@@ -39,6 +39,11 @@
 	color: #6f1c23;
 	font-size: 15px;
 }
+.accouts ul li a{
+	text-decoration: none;
+	color: #6f1c23;
+}
+
 .arrowR{
 	position: absolute;
 	right: 10px;

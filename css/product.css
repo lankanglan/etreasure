@@ -1,0 +1,66 @@
+.products{
+	width: 86%;
+	margin:20px auto;
+}
+.products .proJ{
+	position: relative;
+	border-bottom: 2px solid #ccc;
+	text-align: center;
+}
+.products .proJ p{
+	font-size: 18px;
+}
+.products .proJ .pmoney{
+	color: #6f1c23;
+	font-weight: 600;
+	margin-top: 10px;
+}
+.products .proJ .sf{
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.products .proJ .sf span{
+	margin-left: 27%; 
+	
+}
+.products .proJ .sf span img{
+	
+}
+.numbers{
+	color:  #6f1c23;
+    font-size: 18px;
+}
+
+.buyP{
+	text-align: center; 
+	margin-top: 15px;
+}
+.buyP p span{
+	margin-right: 5%;
+}
+.buyP p input{
+	margin-top: 15px;
+	width: 80%;
+	border-radius: 30px;
+	background-color: #FFFFFF;
+	border: 1px solid #6f1c23;
+	color:#6f1c23 ;
+	display: inline-block;
+	text-align: center;
+	padding:5px 40px; 
+	cursor: pointer;
+	font-family: Arial;
+	font-size: 18px;
+	line-height: 48px;
+	text-decoration: none;
+}
+.buyP p .pChose{
+	background-color:#6f1c23 ;
+	color: #FFFFFF;
+}
+.pjs{
+	line-height: 18px;
+	width: 85%;
+    margin: 18px auto;
+}

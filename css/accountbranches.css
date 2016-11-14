@@ -1,0 +1,240 @@
+/*coupons*/
+.purchases .cpsp:last-child{
+	border-bottom: none;
+}
+.cpsp{
+	width:90%;
+	margin: 0 auto;
+	margin-top: 25px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #CCCCCC;
+}
+.cpsp ul{
+	width: 98%;
+	margin: 0 auto;
+}
+.cpsp ul li{
+	display:inline-block;
+	width: 47%;
+	vertical-align: text-top;
+}
+.cpf{
+	color:#6f1c23;
+	font-size: 14px;
+	margin-bottom: 8px;
+}
+.cpf img{
+	vertical-align: text-bottom;
+	margin-right: 3px;
+	margin-left: 5px;
+}
+.cps{
+	font-size: 16px;
+	color: #000;
+}
+.cpt{
+	text-align: right;
+	color: #CCCCCC;
+	margin-top: 5px;
+}
+/*points*/
+.pTitle{
+	text-align: center;
+}
+.pTitle .pTBut{
+	width: 70%;
+	padding: 15px 0;
+	border-radius: 30px;
+	margin-bottom: 15px;
+	background-color: #6f1c23;
+	border: 2px solid #6f1c23;
+	color:#FFFFFF;
+	font-size: 16px;
+	margin: 20px auto; 
+}
+.pointsCS{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.centerP{
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+	border-bottom: 2px solid #CCCCCC;
+	padding-bottom: 8px;
+	margin-top: 12px;
+}
+.pointsCS .centerP:last-child{
+	border-bottom: none;
+}
+.centerP ul li{
+	display: inline-block;
+	vertical-align:text-top;
+}
+.centerP ul .imgP{
+	width: 30%;
+	text-align:center;
+}
+.centerP ul .pointS{
+	width:60%;
+	font-size: 16px;
+	color: #000000;
+}
+.centerP ul .pointS .pcs{
+	color: #6f1c23;
+	margin-top: 15px;
+}
+.centerP ul .pointS .pcs span{
+	margin-right: 10px;
+}
+.centerP ul .arrowRs{
+	position: absolute;
+	right:2%;
+	top:25%;
+}/*favor*/
+.favorTitle{
+	width: 96%;
+	margin: 0 auto;
+	margin-top: 30px;
+	border-bottom: 2px solid #CCCCCC;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.favorTitle p{
+	color: #6f1c23;
+	font-weight: 600;
+	font-size: 16px;
+	width: 90%;
+	margin: 0 auto;
+}
+/*setting*/
+.tps{
+	width: 100%;
+	text-align: center;
+	margin-top: 15px;
+	color: #FFFFFF;
+	font-size: 14px;
+}
+.setTitle{
+	width: 100%;
+	margin: 20px 0;
+	margin-bottom: 30px;
+}
+.setTitle p{
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+	color:#6f1c23;
+	border-bottom: 2px solid #CCCCCC;
+}
+.settings{
+	width: 100%;
+	margin: 0 auto;
+}
+.settings ul{
+	width: 90%;
+	margin: 0 auto;
+}
+.settings ul li{
+	margin-top:15px;
+	border-bottom: 2px solid #ccc;
+	padding-bottom: 8px;
+	position: relative;
+	padding-left: 3px;
+	padding-top:15px;
+	padding-bottom: 15px;
+}
+.settings ul li:last-child{
+	border-bottom: none;
+}
+.settings ul li p img{
+	vertical-align: middle;
+}
+.settings ul li p .wenZ{
+	margin-left: 12px;
+	color: #000;
+	font-size: 20px;
+}
+.arrowR{
+	position: absolute;
+	right: 10px;
+} 
+/*donations location*/
+.donationTitle{
+	width: 100%;
+	margin: 20px 0;
+	margin-bottom: 30px;
+	margin-top: 35px;
+}
+.donationTitle p{
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 10px;
+	text-align: left;
+	font-size: 20px;
+	font-weight: 600;
+	color:#6f1c23;
+	border-bottom: 2px solid #CCCCCC;
+	padding-left: 5px;
+}
+.donations .dontion:last-child{
+	border-bottom: none;
+}
+.dontion{
+	width:90%;
+	margin: 0 auto;
+	margin-top: 25px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #CCCCCC;
+}
+.dontion ul{
+	width: 98%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.dontion ul li{
+	display:inline-block;
+	width: 49%;
+	vertical-align:middle;
+}
+.dontion ul li:first-child{
+	width: 30%;
+}
+.dontion ul li:last-child{
+	width: 68%;
+}
+.dontion .cpf{
+	color: #000000;
+	font-size: 14px;
+	margin-bottom: 8px;
+}
+.dontion .cpf img{
+	vertical-align: middle;
+	margin-right: 3px;
+	margin-left: 5px;
+}
+.dontion .cps{
+	font-size: 16px;
+	color:#6f1c23;
+}
+.dontion p span img{
+	vertical-align: middle;
+	margin-left: 5px;
+}
+.dontion p{
+	margin-bottom: 5px;
+}
+.dontion p span{
+	font-size: 14px;
+	margin-left: 6px;
+	color: #aaa;
+ 
+}
+.dontion .Suns{
+	margin-left: 32px;
+	color: #aaa;
+}
