@@ -181,7 +181,7 @@ body {
 	z-index: 100;
 }
 .shops ul li .shopCarts{
-	width: 94%;
+	width: 100%;
 	position: absolute;
 	bottom: 33px;
 	right:-1.5%;
@@ -200,10 +200,10 @@ body {
 }
 .shops ul li .shopCarts ul li{
 	width: 100%;
-	color:#83292d;
-	border-bottom: 2px solid #f7ab53;
+	color:#898989;
+	border-bottom: 2px solid #898989;
 	padding-left: 5px;
-	margin-top: 6px;
+	margin-top: 14px;
 	font-size: 14px;
 	padding-bottom: 10px;
 }

@@ -80,16 +80,6 @@ $(document).ready(function(){
 			 $('#account1').attr('class','account2');
 			 
 		 });
-		touch.on('#menus', 'tap', function(ev){
-			  $(".leftMenu").removeClass("hide");
-			  $(".leftMenu").removeClass("choses");
-			 
-		 });
-		 touch.on('#colse', 'tap', function(ev){
-			  $(".leftMenu").addClass("choses");
-			  
-			 
-		 });
 	});
 </script>
 </head>
@@ -172,9 +162,9 @@ $(document).ready(function(){
 	<div class="container">
 		<div class="shops shopOne">
 			<ul>
-				<li><img src="images/shop1.png"/></li>
+				<li><a href="product.html"><img src="images/shop1.png"/></li></a>
 				<li>
-					<p>Pamper coupons in target $5.00 Off</p>
+					<p><a href="product.html">Pamper Coupons in Target $5.00 Off</a></p>
 					<div class="shopCarts hide">
 						<ul>
 							<li><img src="images/icons/BUYb.png" width="28px"/> <span>BUY IT NOW</span></li>
