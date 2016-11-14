@@ -220,7 +220,7 @@ body {
 .shops ul li .shopCarts ul li:last-child{
 	border-bottom: none;
 }
-/*三角形*/
+/*Triangle*/
 .triangle_border_down{
     margin-left:88%;
     position: absolute; 

@@ -15,9 +15,6 @@
 .natMenus ul li:last-child{
 	float: right;
 }
-.choseN{
-	border-bottom: 2px solid #6f1c23;
-}
 .nations {
 	width: 94%;
 	margin: 0 auto;
