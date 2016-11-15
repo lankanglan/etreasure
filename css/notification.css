@@ -1,3 +1,12 @@
+.thead{
+    color: #fff;
+    text-align: center;
+    height: 30px;
+    font-size:20px;
+	}
+.thead p{
+     margin-top:8px; 
+	}
 .natMenus{
 	width: 100%;
 	margin: 0 auto;
@@ -14,6 +23,9 @@
 }
 .natMenus ul li:last-child{
 	float: right;
+}
+.choseN{
+	border-bottom: 2px solid #6f1c23;
 }
 .nations {
 	width: 94%;

@@ -18,6 +18,15 @@
 
 </style>
 <script>
+	(function(){
+		var _w = document.documentElement.clientWidth;
+		var _fontsize = (_w / 640) * 20;
+		var style = document.createElement('style');
+		style.type = 'text/css';
+		style.innerHTML = 'body{font-size:' + _fontsize + 'px}';
+		document.getElementsByTagName('head').item(0).appendChild(style);
+		 
+	})();
 $(document).ready(function(){
 	touch.on('#home1', 'tap', function(ev){
 			 $('#home1').attr('class','home1');
@@ -55,10 +64,10 @@ $(document).ready(function(){
 <div class="header">
 	<div class="thead">
 		<ul>
-			<li><img src="images/icons/menu.png" width="30px"/></li>
+			<a href="scan.html"><li><img src="images/icons/back l.png" width="30px"/></li></a>
 			<li class="about">
 			</li>
-			<a href="store.html"><li><img src="images/icons/delete.png" alt="" width="28px"/></li></a>
+			<a href="home.html"><li><img src="images/icons/delete.png" alt="" width="28px"/></li></a>
 		</ul>
 	</div>
 </div>
