@@ -11,10 +11,6 @@
 <title>signin</title>
 <style type="text/css">
 <script>
-function myFunction() {
-    var x = document.getElementById("myPsw").value;
-    document.getElementById("demo").innerHTML = x;
-}
 </script>
 
 </style>
@@ -36,11 +32,14 @@ function myFunction() {
 			<li class="name">
 				<div class="checks">
 					<img src="images/icons/padlock.png" alt="store.html" width="20px" />
-					<input type="password" id="myPsw" value="psw123" width="80%" />
+					<input type="text" placeholder="Password" width="80%" />
 				</div>
 			</li>
 		</ul>
-		</div>
+		<form class="remembername">
+ <input type="checkbox" name="love" value="love" id="love"><label for="love"> Remember user name</label>
+
+ </form>
 		<div class="signup">
 		<div class="skip">
 		<a href="newuser.html"><p>SKIP</p></a>
@@ -52,11 +51,7 @@ function myFunction() {
 
 	
 		<div class="terms">
-		<ul>
-		<li><p>Privacy policy   /</p></li>
-		<li><p>Terms&coditions   /</p></li>
-		<li class="secuirity"><p>Security center</p></li>
-		</ul>
+	    <p>Privacy policy   /Terms&coditions   /Security center</p>
 		</div>
         </div>
 		<div class="account">

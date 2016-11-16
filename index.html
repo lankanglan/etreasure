@@ -14,7 +14,71 @@
 <script type="text/javascript" src="js/yxMobileSlider.js" ></script>
 <title>onboarding</title>
 <style type="text/css">
-
+body{
+    background: #ff7e00;
+}
+.onboarding1{
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+.onboarding2{
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+.onboarding3{
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+.hand{
+       z-index:2;
+       position: absolute;
+       margin-top: 150px;
+    margin-left: -250px;
+}
+.line1{
+   z-index:-2;
+   margin-top: 100px;
+}
+.line3{
+   z-index:-2;
+   margin-top: 150px;
+}
+.scan{
+       z-index:2;
+          position: absolute;
+              margin-top: 150px;
+    margin-left: -190px;
+}
+.buybuy{
+          z-index: 2;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -50px;
+}
+.words{
+  margin-left: 14%;
+    width: 70%;
+text-align: center;
+}
+.words2{
+  margin-top: -80px;
+}
+.words h3{
+  color:#6e1c22;
+  font-family:Arial;
+  margin-top:30px;
+}
+.words p{
+  color:#fff;
+  font-family:Arial;
+  text-align: center;
+  display: block;
+  font-size: 18px;
+  line-height: 22px;
+}
 </style>
 </head>
 <body>
@@ -23,13 +87,34 @@
 				<div class="slider">
                         <ul>
                          <li>
-                         <img class="imgs" src="images/onboarding1.png" width="100%" />
+                         <div class="onboarding1">
+                         <img  class="line1" src="images/icons/111.png" width="96%" />
+                         <img class="hand" src="images/icons/hand.png" width="40%" />
+                         </div>
+                         <div class="words">
+                         <h3>MAKE DONATIONS</h3>
+                         <p>Go to any GOODWILL to make donations, and ask for receipts.</p>
+                         </div>
                                 </li>
                                 <li>
-                                    <a href="signin.html"><img class="imgs" src="images/onboarding2.png" width="100%" /></a>
+                                      <div class="onboarding2">
+                         <img  class="line2" src="images/icons/222.png" width="66%" />
+                         <img class="scan" src="images/icons/scan.png" width="36%" />
+                         </div>
+                         <div class="words">
+                         <h3>GET POINTS</h3>
+                         <p>Scan the barcode on receipts ,you will get 50 points for your each donations.</p>
+                         </div>
                                 </li>
                                 <li>
-                                    <a href="signin.html"><img class="imgs" src="images/onboarding3.png" width="100%" /></a>
+                                      <div class="onboarding3">
+                         <img  class="line3" src="images/icons/333.png" width="100%" />
+                         <img class="buybuy" src="images/icons/buybuy.png" width="30%" />
+                         </div>
+                         <div class="words">
+                         <h3>BUY COUPONS</h3>
+                         <p>Go to E-treasure online store buy any coupons you want.</p>
+                         </div>
                                 </li>  
                         </ul>
                 </div>

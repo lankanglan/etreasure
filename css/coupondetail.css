@@ -1,0 +1,40 @@
+.deals{
+	width:90%;
+	margin: 0 auto;
+	margin-top: 45px;
+	padding-bottom: 10px;
+}
+.deals ul{
+	width: 98%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.deals ul li{
+	display:inline-block;
+	width: 49%;
+	vertical-align:middle;
+}
+.deals .cpf{
+	color:#6f1c23;
+	font-size: 15px;
+	margin-bottom: 8px;
+}
+.deals .cps{
+	font-size: 16px;
+	color: #000000;
+}
+.erwm{
+	width: 85%;
+	margin: 40px auto;
+	text-align: center;
+}
+.details{
+	width: 90%;
+	margin: 0 auto;
+}
+.details p{
+	width: 90%;
+	margin: 0 auto;
+	font-size: 15px;
+	line-height: 20px;
+}

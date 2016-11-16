@@ -339,32 +339,47 @@ body {
 	width: 100%;
 	background-color: #ebebeb;
 	padding-top:10px;
-	 
+	height: 40px;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.gdh{
+	width: 100%;
+	background-color: #ebebeb;
+	overflow-x: scroll;
+	text-align: center;
 }
 .Hmenu ul{
-	width: 100%;
+	width:630px;
 	margin-bottom: 15px;
+	text-align: center;
 }
 .Hmenu ul li{
 	display: inline-block;
-	padding: 10px 3px;
+	padding: 11px 3px;
 	color: #6e1c22;
 	font-size: 14px;
 	text-align: center; 
 }
 .Hmenu ul li:first-child{
-	width: 33%;
+	//width: 33%;
 	margin-left: 0;
 	text-align: center;
 }
 .Hmenu ul li:last-child{
-	width:20%;
-	margin-right: 0;
+	//width:20%;
+	margin-right: 5px;
 	text-align: center;
-	float: right;
+	//float: right;
 }
-.Hmenu ul .choseM{
+.Hmenu ul .choseM{ 
 	border-bottom: 2px solid #6e1c22;
+}
+.choseM{
+	margin-left: 0;
+	}
+.gdh ul li{
+    margin-left: 15px;
 }
 .new{
 	position: absolute;

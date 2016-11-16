@@ -1,0 +1,98 @@
+.proceed{
+	width: 100%;
+	text-align: center;
+}
+.proceed p{
+ 	margin-top:15px;
+	font-size: 14px;
+	color: #000000;
+}
+.proceed p .money{
+	color:#6e1c22 ;
+}
+.proceed input{
+	background-color:#6e1c22 ;
+	color: #FFFFFF;
+	border:none;
+	width: 80%;
+  	border-radius: 30px;
+  	height:65px;
+  	margin-top: 20px;
+  	font-size: 16px;
+}
+.buyShop{
+	position: relative;
+	width: 85%;
+	margin: 0 auto;
+	margin-top:6px;
+	padding-top: 30px;
+	border-bottom: 2px solid #9e9e9e;
+	padding-bottom: 2px;
+}
+.buyShop ul{
+	width: 95%;
+	margin: 0 auto;
+}
+.buyShop ul li{
+	display: inline-block;
+	vertical-align: text-top;
+	position: relative;
+}
+.buyShop ul li:first-child{
+	width: 45%;
+}
+.buyShop ul li:first-child img{
+	width: 100%;
+}
+.buyShop ul li:last-child{
+	width: 50%;
+	font-size: 16px;
+	color: #585656;
+	line-height: 20px;
+}
+.buyShop ul li:last-child .p2{
+	color:#83292d;
+	font-weight: 600;
+	position: relative;
+}
+.Chosenumber{
+	position: relative;
+	width: 95%;
+	margin: 0 auto;
+	height: 40px;
+  	line-height: 40px;
+	padding-bottom: 22px;
+}
+.Chosenumber span{
+	vertical-align: middle;
+}
+.Chosenumber span img{
+	vertical-align: middle;
+}
+.numbers input{
+    font-size:18px;
+}
+.numbers{
+	color:#6e1c22;
+	font-size: 14px;
+	margin-left: 6px;
+	margin-right: 6px;
+}
+.nubs{
+	border: none;
+  	width:6%;
+  	text-align: center;
+  	color:#6e1c22;
+}
+.delete{
+	font-size:16px;
+	position: absolute;
+	right: 0;
+	width: 32%;
+	height: 48px;
+	background-color: #6e1c22;
+	color: #FFFFFF;
+	border: none;
+	border-radius:30px;
+	letter-spacing: 1px;
+}

@@ -1,0 +1,69 @@
+.completes{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+.deails{
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+}
+.deails p{
+	width: 90%;
+	margin: 0 auto;
+	
+}
+.deails .deal1{
+	margin: 33px auto;
+}
+.deails .deal2{
+	text-align: left;
+	color: #000000;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+.deails .deal3{
+	text-align: left;
+	color: #000000;
+	font-size: 14px;
+	margin-bottom:10px;
+}
+.next{
+	width:100%;
+	margin: 0 auto;
+	padding: 23px 0;
+	text-align: center;
+	border-bottom: 1px solid #CCCCCC;
+	color: #6f1c23;
+	font-size: 16px;
+}
+.inputs{margin-top: 23px;}
+.inputs input{
+	width: 80%;
+	padding: 23px 0;
+	border-radius: 30px;
+	margin-bottom: 20px;
+	background-color: #FFFFFF;
+	border: 1px solid #6f1c23;
+	color:#6f1c23 ;
+}
+.inputs .pChose{
+	background-color:#6f1c23 ;
+	color: #FFFFFF;
+	-webkit-box-shadow:0 2px 5px #000;  
+  	-moz-box-shadow:0 2px 5px #000;  
+  	box-shadow:0 2px 5px #000;
+}
+.others{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+.others ul li{
+	display: inline-block;
+	text-align: center;
+	width: 49%;
+	padding: 10px 0;
+}
+.others ul li:first-child{
+	border-right: 1px solid #AAAAAA;
+}
