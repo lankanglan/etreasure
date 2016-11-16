@@ -387,3 +387,9 @@ body {
 	top: 0;
 	z-index: 100;
 }
+.vote{
+	margin-left: 15px;
+}
+.point{
+	font-size:12px;
+}
