@@ -1,4 +1,9 @@
 /*coupons*/
+.sss{
+	width: 100%;
+	height: 15px;
+	background:#6f1c23;
+}
 .purchases .cpsp:last-child{
 	border-bottom: none;
 }
