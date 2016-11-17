@@ -42,9 +42,9 @@
 .buyP p span{
 	margin-right: 5%;
 }
-.buyP p input{
+.buyP input{
 	margin-top: 15px;
-	width: 80%;
+	width: 100%;
 	border-radius: 40px;
 	background-color: #FFFFFF;
 	border: 1px solid #6f1c23;
@@ -58,7 +58,7 @@
 	line-height: 48px;
 	text-decoration: none;
 }
-.buyP p .pChose{
+.buyP .pChose{
 	background-color:#6f1c23 ;
 	color: #FFFFFF;
 }
