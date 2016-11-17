@@ -15,11 +15,10 @@
 <script type="text/javascript" src="js/yxMobileSlider.js" ></script>
 <title>Home</title>
 <style type="text/css">
-
 </style>
 </style>
 <script>
-	(function(){
+(function(){
 		var _w = document.documentElement.clientWidth;
 		var _fontsize = (_w / 640) * 20;
 		var style = document.createElement('style');
@@ -44,28 +43,29 @@
 		});
 	});
 $(document).ready(function(){
-	touch.on('#home2', 'tap', function(ev){
-			 $('#home2').attr('class','home1');
+	touch.on('#home1', 'tap', function(ev){
+			 $('#home1').attr('class','home1');
 			 $('#store1').attr('class','store1');
 			 $('#nations1').attr('class','nations1');
 			 $('#account1').attr('class','account1');
+			 
 		 });
 		 touch.on('#store1', 'tap', function(ev){
-			 $('#home2').attr('class','home1');
+			 $('#home1').attr('class','home2');
 			 $('#store1').attr('class','store2');
 			 $('#nations1').attr('class','nations1');
 			 $('#account1').attr('class','account1');
 			 
 		 });
 		 touch.on('#nations1', 'tap', function(ev){
-			 $('#home2').attr('class','home1');
+			 $('#home1').attr('class','home2');
 			 $('#store1').attr('class','store1');
 			 $('#nations1').attr('class','nations2');
 			 $('#account1').attr('class','account1');
 			 
 		 });
 		 touch.on('#account1', 'tap', function(ev){
-			 $('#home2').attr('class','home1');
+			 $('#home1').attr('class','home2');
 			 $('#store1').attr('class','store1');
 			 $('#nations1').attr('class','nations1');
 			 $('#account1').attr('class','account2');
@@ -100,7 +100,7 @@ $(document).ready(function(){
 					<input type="text" width="80%" />
 				</div>
 			</li>
-			<li><img src="images/icons/cart.png" alt="" width="28px"/></li>
+			<a href="cart.html"><li><img src="images/icons/cart.png" alt="" width="28px"/></li></a>
 		</ul>
 	</div>
 </div>
@@ -160,7 +160,7 @@ $(document).ready(function(){
 					<p><a href="product.html">Pamper Coupons in Target $5.00 Off</a></p>
 					<div class="shopCarts hide">
 						<ul>
-							<li><img src="images/icons/BUYb.png" width="28px"/> <span>BUY IT NOW</span></li>
+							<li><a href="payment.html"><img src="images/icons/BUYb.png" width="28px"/> <span >BUY IT NOW</span></a></li>
 							<li><img src="images/icons/BUY.png" width="28px"/> <span>ADD TO CART</span></li>
 							<li><img src="images/icons/favor.png" width="28px"/> <sapn>ADD TO FAVOR</sapn></li>
 							<li><img src="images/icons/share.png" width="23px"/> <span>&nbsp;SHARE</span></li>
@@ -185,7 +185,7 @@ $(document).ready(function(){
 					<p>Apple store $20 off for Smartphones and macs</p>
 					<div class="shopCarts hide">
 						<ul>
-							<li><img src="images/icons/BUYb.png" width="28px"/> <span>BUY IT NOW</span></li>
+							<li><a href="payment.html"><img src="images/icons/BUYb.png" width="28px"/> <span >BUY IT NOW</span></a></li>
 							<li><img src="images/icons/BUY.png" width="28px"/> <span>ADD TO CART</span></li>
 							<li><img src="images/icons/favor.png" width="28px"/> <sapn>ADD TO FAVOR</sapn></li>
 							<li><img src="images/icons/share.png" width="23px"/> <span>&nbsp;SHARE</span></li>
@@ -211,7 +211,7 @@ $(document).ready(function(){
 					<p>$5 off any item in brookstore</p>
 					<div class="shopCarts hide">
 						<ul>
-							<li><img src="images/icons/BUYb.png" width="25px"/> <span>BUY IT NOW</span></li>
+							<li><a href="payment.html"><img src="images/icons/BUYb.png" width="28px"/> <span >BUY IT NOW</span></a></li>
 							<li><img src="images/icons/BUY.png" width="25px"/> <span>ADD TO CART</span></li>
 							<li><img src="images/icons/favor.png" width="25px"/> <sapn>ADD TO FAVOR</sapn></li>
 							<li><img src="images/icons/share.png" width="21px"/> <span>&nbsp;SHARE</span></li>
@@ -236,7 +236,7 @@ $(document).ready(function(){
 					<p>MAC Cremesheen Lipstick 1oz New 20% off</p>
 					<div class="shopCarts hide">
 						<ul>
-							<li><img src="images/icons/BUYb.png" width="25px"/> <span>BUY IT NOW</span></li>
+							<li><a href="payment.html"><img src="images/icons/BUYb.png" width="28px"/> <span >BUY IT NOW</span></a></li>
 							<li><img src="images/icons/BUY.png" width="25px"/> <span>ADD TO CART</span></li>
 							<li><img src="images/icons/favor.png" width="25px"/> <sapn>ADD TO FAVOR</sapn></li>
 							<li><img src="images/icons/share.png" width="21px"/> <span>&nbsp;SHARE</span></li>

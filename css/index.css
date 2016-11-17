@@ -184,9 +184,9 @@ body {
 	bottom: 33px;
 	right:-1.5%;
 	background-color: #fff;
-	-webkit-box-shadow:0 0 3px #aaa;  
-  	-moz-box-shadow:0 0 3px #aaa;  
-  	box-shadow:0 0 3px #aaa; 
+	-webkit-box-shadow:0 0 5px #aaa;  
+  	-moz-box-shadow:0 0 5px #aaa;  
+  	box-shadow:0 0 5px #aaa; 
   	z-index: 100;
 }
 .shops ul li .shopCarts ul {
@@ -224,6 +224,7 @@ body {
     position: absolute; 
     bottom: -20.5px;
     z-index: 80;
+
 }
 .triangle_border_down span{
     display:block;
@@ -235,6 +236,9 @@ body {
     position:absolute;
     top:0px;
     left:0px;
+        	-webkit-box-shadow:0 0 5px #aaa;  
+  	-moz-box-shadow:0 0 5px #aaa;  
+  	box-shadow:0 0 5px #aaa; 
 }
 .ms{
 	font-size: 11px;
@@ -392,4 +396,8 @@ body {
 }
 .point{
 	font-size:12px;
+}
+.shops ul li .shopCarts ul li a{
+color: #6e1c22;	
+text-decoration: none;
 }

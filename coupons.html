@@ -18,7 +18,7 @@
 
 </style>
 <script>
-	(function(){
+(function(){
 		var _w = document.documentElement.clientWidth;
 		var _fontsize = (_w / 640) * 20;
 		var style = document.createElement('style');
@@ -66,10 +66,19 @@ $(document).ready(function(){
 			 $('#account1').attr('class','account2');
 			 
 		 });
-
 		touch.on('#menuNav ul li', 'tap', function(ev){
 			$("#menuNav ul li").removeClass('choseN');
 			$(this).addClass('choseN');
+		 });
+		touch.on('#menus', 'tap', function(ev){
+			  $(".leftMenu").removeClass("hide");
+			  $(".leftMenu").removeClass("choses");
+			 
+		 });
+		 touch.on('#colse', 'tap', function(ev){
+			  $(".leftMenu").addClass("choses");
+			  
+			 
 		 });
 	});
 </script>
@@ -124,25 +133,25 @@ $(document).ready(function(){
 				</li>
 			</ul>
 		</div>
-		<div class="cpsp">
+		<div class="cpsp1">
 			<ul>
 				<li>
 					<img src="images/shop1.png" width="80%" />
 				</li>
 				<li>
-					<p class="cpf"><img src="images/icons/time.png" width="20px"/><span>EXPIRES <span>9/21/2016</span></span></p>
+					<p class="cpf"><img src="images/icons/time.png" width="20px"/><span>EXPIRED <span></span></p>
 					<p class="cps">Pamper Diapers Coupons $5.00 Off</p>
 					<p class="cpt">store only</p>
 				</li>
 			</ul>
 		</div>
-		<div class="cpsp">
+		<div class="cpsp1">
 			<ul>
 				<li>
 					<img src="images/shop1.png" width="80%" />
 				</li>
 				<li>
-					<p class="cpf"><img src="images/icons/time.png" width="20px"/><span>EXPIRES <span>9/21/2016</span></span></p>
+					<p class="cpf"><img src="images/icons/time.png" width="20px"/><span>REDEEMED</span></p>
 					<p class="cps">Pamper Diapers Coupons $5.00 Off</p>
 					<p class="cpt">store only</p>
 				</li>

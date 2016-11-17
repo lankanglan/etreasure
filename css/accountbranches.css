@@ -18,6 +18,28 @@
 	width: 47%;
 	vertical-align: text-top;
 }
+.purchases .cpsp1:last-child{
+	border-bottom: none;
+}
+.cpsp1{
+	width:90%;
+	margin: 0 auto;
+	margin-top: 25px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #CCCCCC;
+}
+.cpsp1 ul{
+	width: 98%;
+	margin: 0 auto;
+}
+.cpsp1 ul li{
+	display:inline-block;
+	width: 47%;
+	vertical-align: text-top;
+}
+.cpsp1 .cps {
+    color: #CCC; 
+}
 .cpf{
 	color:#6f1c23;
 	font-size: 14px;
@@ -43,8 +65,8 @@
 }
 .pTitle .pTBut{
 	width: 70%;
-	padding: 15px 0;
-	border-radius: 30px;
+	padding: 20px 0;
+	border-radius: 40px;
 	margin-bottom: 15px;
 	background-color: #6f1c23;
 	border: 2px solid #6f1c23;

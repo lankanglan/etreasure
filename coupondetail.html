@@ -8,6 +8,7 @@
 <meta content="telephone=no" name="format-detection">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" href="css/index.css" />
+<link rel="stylesheet" href="css/product.css" />
 <link rel="stylesheet" href="css/coupondetail.css" />
 <link href="css/animations.css" rel="stylesheet" type="text/css">
 <script src="js/touch-0.2.14.min.js"></script>
@@ -17,7 +18,7 @@
 
 </style>
 <script>
-	(function(){
+(function(){
 		var _w = document.documentElement.clientWidth;
 		var _fontsize = (_w / 640) * 20;
 		var style = document.createElement('style');
@@ -68,15 +69,10 @@ $(document).ready(function(){
 		touch.on('#menus', 'tap', function(ev){
 			  $(".leftMenu").removeClass("hide");
 			  $(".leftMenu").removeClass("choses");
-			  setTimeout(function(){
-			  	 $(".leftMenu").addClass("leftMenubg");
-			  },1000);
-			 
 			 
 		 });
 		 touch.on('#colse', 'tap', function(ev){
 			  $(".leftMenu").addClass("choses");
-			   $(".leftMenu").removeClass("leftMenubg");
 			  
 			 
 		 });
@@ -88,7 +84,7 @@ $(document).ready(function(){
 <div class="header">
 	<div class="thead">
 		<ul>
-			<li><img id="menus" src="images/icons/menu.png" width="30px"/></li>
+			<a href="home.html"><li><img id="menus" src="images/icons/back l.png" width="30px"/></li></a>
 			<li class="about">
 				<div class="checks">
 					<img src="images/icons/_ copy.png" alt="" width="20px" />
@@ -128,23 +124,23 @@ $(document).ready(function(){
 <div class="footer">
 	 <div class="foot">
 	 	<ul>
-	 		<li>
+	 		<a href="home.html"><li>
 	 			<p id="home1" class="home1"></p> 
 	 			<p>Home</p>
-	 		</li>
-	 		<li>
+	 		</li></a>
+	 		<a href="store.html"><li>
 	 			<p id="store1" class="store1"></p>  
 	 			<p>Store</p>
-	 		</li>
+	 		</li></a>
 	 		<li></li>
-	 		<li>
+	 		<a href="notification.html"><li>
 	 			<p id="nations1" class="nations1"></p>  
 	 			<p>Notification</p>
-	 		</li>
-	 		<li>
+	 		</li></a>
+	 		<a href="account.html"><li>
 	 			<p id="account1" class="account1"></p>
 	 			<p>Account</p>
-	 		</li>
+	 		</li></a>
 	 	</ul>
 	 </div>
 	 <div class="centers">

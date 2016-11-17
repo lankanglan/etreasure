@@ -1,14 +1,17 @@
 .products{
-	width: 86%;
+	width: 80%;
 	margin:20px auto;
 }
 .products .proJ{
 	position: relative;
 	border-bottom: 2px solid #ccc;
-	text-align: center;
 }
 .products .proJ p{
 	font-size: 18px;
+}
+.exp{
+	font-size: 16px;
+	color: #6f1c23;
 }
 .products .proJ .pmoney{
 	color: #6f1c23;
@@ -21,7 +24,7 @@
 	margin-bottom: 5px;
 }
 .products .proJ .sf span{
-	margin-left: 27%; 
+	margin-left: 17%; 
 	
 }
 .products .proJ .sf span img{
@@ -42,7 +45,7 @@
 .buyP p input{
 	margin-top: 15px;
 	width: 80%;
-	border-radius: 30px;
+	border-radius: 40px;
 	background-color: #FFFFFF;
 	border: 1px solid #6f1c23;
 	color:#6f1c23 ;

@@ -17,7 +17,7 @@
 
 </style>
 <script>
-	(function(){
+(function(){
 		var _w = document.documentElement.clientWidth;
 		var _fontsize = (_w / 640) * 20;
 		var style = document.createElement('style');
@@ -43,32 +43,36 @@
 	});
 $(document).ready(function(){
 	touch.on('#home1', 'tap', function(ev){
-			 $('#home1').attr('class','home2');
+			 $('#home1').attr('class','home1');
 			 $('#store1').attr('class','store1');
 			 $('#nations1').attr('class','nations1');
 			 $('#account1').attr('class','account1');
 			 
 		 });
 		 touch.on('#store1', 'tap', function(ev){
-			 $('#home1').attr('class','home1');
+			 $('#home1').attr('class','home2');
 			 $('#store1').attr('class','store2');
 			 $('#nations1').attr('class','nations1');
 			 $('#account1').attr('class','account1');
 			 
 		 });
 		 touch.on('#nations1', 'tap', function(ev){
-			 $('#home1').attr('class','home1');
+			 $('#home1').attr('class','home2');
 			 $('#store1').attr('class','store1');
 			 $('#nations1').attr('class','nations2');
 			 $('#account1').attr('class','account1');
 			 
 		 });
 		 touch.on('#account1', 'tap', function(ev){
-			 $('#home1').attr('class','home1');
+			 $('#home1').attr('class','home2');
 			 $('#store1').attr('class','store1');
 			 $('#nations1').attr('class','nations1');
 			 $('#account1').attr('class','account2');
 			 
+		 });
+		 touch.on('#menuNav ul li', 'tap', function(ev){
+			$("#menuNav ul li").removeClass('choseM');
+			$(this).addClass('choseM');
 		 });
 		touch.on('#menus', 'tap', function(ev){
 			  $(".leftMenu").removeClass("hide");
@@ -95,7 +99,7 @@ $(document).ready(function(){
 					<input type="text" width="80%" />
 				</div>
 			</li>
-			<li><img src="images/icons/cart.png" alt="" width="28px"/></li>
+			<li><a href="cart.html"><img src="images/icons/cart.png" alt="" width="28px"/></a></li>
 		</ul>
 	</div>
 </div>
@@ -105,14 +109,16 @@ $(document).ready(function(){
 	</div> 
 	<div class="products">
 		<div class="proJ">
-			<p><img src="images/shop1.png" width="75%"/></p>
+			<p><img src="images/shop1.png" width="80%"/></p>
+			<p class="exp">EXPIRES 9/21/2016</p>
 			<p>Pamper Diapers in target $5.00 off</p>
+
 			<p class="pmoney"><span>30 points</span> <span class="cirle"><span class="ms">store only</span></span></p>
-			<p class="sf"><span><img src="images/icons/favor.png" width="30px" /></span><span><img src="images/icons/share.png" width="30px"/></span></p>
+			<p class="sf"><span><img src="images/icons/favor.png" width="30px" /></span><span><img src="images/icons/vote.png" width="30px" /></span><span><img src="images/icons/share.png" width="30px"/></span></p>
 		</div>
 		<div class="buyP">
 			<p class="Chosenumber"><span><img src="images/icons/MINU copy.png" width="35"/></span><span class="numbers">1qty.</span><span><img src="images/icons/ADD copy.png" width="35"/></span></p>
-			<p><input type="button" class="pChose" name="pbuy" id="" value="BUY IT NOW" /></p>
+			<a href="payment.html"><p><input type="button" class="pChose" name="pbuy" id="" value="BUY IT NOW" /></p></a>
 			<p><input type="button" name="Acart" id="" value="ADD TO CART" /></p>
 		</div>
 		<div class="pjs">

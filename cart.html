@@ -17,7 +17,7 @@
 
 </style>
 <script>
-	(function(){
+(function(){
 		var _w = document.documentElement.clientWidth;
 		var _fontsize = (_w / 640) * 20;
 		var style = document.createElement('style');
@@ -50,24 +50,24 @@ $(document).ready(function(){
 			 
 		 });
 		 touch.on('#store1', 'tap', function(ev){
-			 $('#home1').attr('class','home2');
-			 $('#store1').attr('class','store2');
+			 $('#home1').attr('class','home1');
+			 $('#store1').attr('class','store1');
 			 $('#nations1').attr('class','nations1');
 			 $('#account1').attr('class','account1');
 			 
 		 });
 		 touch.on('#nations1', 'tap', function(ev){
-			 $('#home1').attr('class','home2');
+			 $('#home1').attr('class','home1');
 			 $('#store1').attr('class','store1');
-			 $('#nations1').attr('class','nations2');
+			 $('#nations1').attr('class','nations1');
 			 $('#account1').attr('class','account1');
 			 
 		 });
 		 touch.on('#account1', 'tap', function(ev){
-			 $('#home1').attr('class','home2');
+			 $('#home1').attr('class','home1');
 			 $('#store1').attr('class','store1');
 			 $('#nations1').attr('class','nations1');
-			 $('#account1').attr('class','account2');
+			 $('#account1').attr('class','account1');
 			 
 		 });
 		touch.on('#menus', 'tap', function(ev){
@@ -80,19 +80,6 @@ $(document).ready(function(){
 			  
 			 
 		 });
-		 touch.on('.adds', 'tap', function(ev){
-			  var nu = $(this).parents("p").find(".nubs").val();
-			  var nuit = parseInt(nu)+1;
-			  $(this).parents("p").find(".nubs").val(nuit);
-		 });
-		 touch.on('.subt', 'tap', function(ev){
-			  var nu = $(this).parents("p").find(".nubs").val();
-			  if(parseInt(nu)>0){
-				  var nuit = parseInt(nu)-1;
-				  $(this).parents("p").find(".nubs").val(nuit);
-			  }
-		 });
-		 
 	});
 </script>
 </head>
@@ -108,7 +95,7 @@ $(document).ready(function(){
 					<input type="text" width="80%" />
 				</div>
 			</li>
-			<li><img src="images/icons/cart.png" alt="" width="28px"/></li>
+			<a href="cart.html"><li><img src="images/icons/cart.png" alt="" width="28px"/></li></a>
 		</ul>
 	</div> 
 </div>
@@ -154,23 +141,23 @@ $(document).ready(function(){
 <div class="footer">
 	 <div class="foot">
 	 	<ul>
-	 		<li>
-	 			<p id="home1" class="home1"></p>  
+	 		<a href="home.html"><li>
+	 			<p id="home1" class="home1"></p> 
 	 			<p>Home</p>
-	 		</li>
-	 		<li>
+	 		</li></a>
+	 		<a href="store.html"><li>
 	 			<p id="store1" class="store1"></p>  
 	 			<p>Store</p>
-	 		</li>
+	 		</li></a>
 	 		<li></li>
-	 		<li>
+	 		<a href="notification.html"><li>
 	 			<p id="nations1" class="nations1"></p>  
 	 			<p>Notification</p>
-	 		</li>
-	 		<li>
+	 		</li></a>
+	 		<a href="account.html"><li>
 	 			<p id="account1" class="account1"></p>
 	 			<p>Account</p>
-	 		</li>
+	 		</li></a>
 	 	</ul>
 	 </div>
 	 <div class="centers">

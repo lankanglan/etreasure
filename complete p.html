@@ -17,7 +17,7 @@
 
 </style>
 <script>
-	(function(){
+(function(){
 		var _w = document.documentElement.clientWidth;
 		var _fontsize = (_w / 640) * 20;
 		var style = document.createElement('style');
@@ -73,15 +73,10 @@ $(document).ready(function(){
 		touch.on('#menus', 'tap', function(ev){
 			  $(".leftMenu").removeClass("hide");
 			  $(".leftMenu").removeClass("choses");
-			  setTimeout(function(){
-			  	 $(".leftMenu").addClass("leftMenubg");
-			  },1000);
-			 
 			 
 		 });
 		 touch.on('#colse', 'tap', function(ev){
 			  $(".leftMenu").addClass("choses");
-			   $(".leftMenu").removeClass("leftMenubg");
 			  
 			 
 		 });
@@ -97,7 +92,7 @@ $(document).ready(function(){
 			<li class="about">
 				 
 			</li>
-			<li><img src="images/icons/delete.png" alt="" width="28px"/></li>
+			<li><a href="home.html"><img src="images/icons/delete.png" alt="" width="28px"/></a></li>
 		</ul>
 	</div>
 </div>
@@ -112,37 +107,31 @@ $(document).ready(function(){
 			<p>YOU HAVE 1900 POINTS</p>
 		</div>
 		<div class="inputs">
-			<p><input type="button" class="pChose" name="pbuy" id="" value="CHECK YOUR COUPONS" /></p>
-			<p><input type="button" name="Acart" id="" value="CONTINUE SHOPPING" /></p>
+			<a href="coupondetail.html"><p><input type="button" class="pChose" name="pbuy" id="" value="CHECK YOUR COUPONS" /></p></a>
+			<a href="store.html"><p><input type="button" name="Acart" id="" value="CONTINUE SHOPPING" /></p></a>
 		</div>
-	</div>
-	<div class="others">
-		<ul>
-			<li><img src="images/complete1.png" width="80%"/></li>
-			<li><img src="images/complete2.png" width="85%"/></li>
-		</ul>
 	</div>
 </div>
 <div class="footer">
 	 <div class="foot">
 	 	<ul>
-	 		<li>
-	 			<p id="home1" class="home2"></p>  
+	 		<a href="home.html"><li>
+	 			<p id="home1" class="home1"></p> 
 	 			<p>Home</p>
-	 		</li>
-	 		<li>
-	 			<p id="store1" class="store2"></p>  
+	 		</li></a>
+	 		<a href="store.html"><li>
+	 			<p id="store1" class="store1"></p>  
 	 			<p>Store</p>
-	 		</li>
+	 		</li></a>
 	 		<li></li>
-	 		<li>
+	 		<a href="notification.html"><li>
 	 			<p id="nations1" class="nations1"></p>  
 	 			<p>Notification</p>
-	 		</li>
-	 		<li>
+	 		</li></a>
+	 		<a href="account.html"><li>
 	 			<p id="account1" class="account1"></p>
 	 			<p>Account</p>
-	 		</li>
+	 		</li></a>
 	 	</ul>
 	 </div>
 	 <div class="centers">
@@ -156,43 +145,6 @@ $(document).ready(function(){
 			<p class="topsP">YOU HAVE 1930 POINTS</p>
 			<p class="sign">SIGN OUT</p>
 		</div>
-		<div class="menuF">
-			<div class="fWhere">
-				<p><img src="images/icons/placeholder.png" alt="" width="50px" /></p>
-				<p>GOODWILL NEARBY</p>
-			</div>
-			<ul>
-				<li>
-					<img src="images/icons/COUPAN copy.png" alt="" width="50px" />
-					<p>COUPONS</p>
-				</li>
-				<li>
-					<img src="images/icons/points.png" alt="" width="50px" />
-					<p>POINTS</p>
-				</li>
-				<li>
-					<img src="images/icons/HOME.png" alt="" width="50px" />
-					<p>HOME</p>
-				</li>
-				<li>
-					<img src="images/icons/STORE.png" alt="" width="50px" />
-					<p>STORE</p>
-				</li>
-				<li>
-					<img src="images/icons/favor.png" alt="" width="50px" />
-					<p>FAVORITE</p>
-				</li>
-				<li>
-					<img src="images/icons/setting.png" alt="" width="50px" />
-					<p>SETTING</p>
-				</li>
-			</ul>
-			<p class="colses">
-				<img id="colse" src="images/icons/close copy.png" alt="" width="30px" />
-			</p>
-		</div>
-	</div>
-</div>
 
 </body>
 </html>
