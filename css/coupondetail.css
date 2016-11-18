@@ -1,9 +1,27 @@
 
-.redeembtn {
-    padding: 8px 0;
+.makebtn{
+	width: 80%;
+	position: relative;
+	height: 48px;
+	display: inline-block;
+	text-align: center;
+	padding:8px 0; 
+	border-radius: 40px;
+	cursor: pointer;
+	color: #fff;	
+	background: #6f1c23;
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 48px;
+	text-decoration: none;	
 }
-
-    .buyP input {
+.makebtn a{
+    text-decoration: none;
+}
+.makebtn:active{
+	background: #858585;
+}
+  .buyP input {
     margin-top: 15px;
     width: 80%;
    }

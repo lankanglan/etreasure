@@ -31,10 +31,9 @@ body {
 	font-size:1em;
 	width: 100%;
 	height: 100%;
-	min-width:375px;
+	//min-width:375px;
 	min-height: 667px;
 	letter-spacing:.5px;
-	
 }
 .hide{
 	display: none;
@@ -400,4 +399,82 @@ body {
 .shops ul li .shopCarts ul li a{
 color: #6e1c22;	
 text-decoration: none;
+}
+/*menu*/
+.leftMenu{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top:0;
+	left: 0;
+	z-index: 2000;
+	-webkit-animation: moveFromLeft 0.1s ease-in-out both;
+    -moz-animation: moveFromLeft 0.1s ease-in-out both;
+    animation: moveFromLeft 0.1s ease-in-out both;
+}
+.leftMenubg{
+	-webkit-animation: fadebg 0.01s ease-in-out both;
+    -moz-animation: fadebg 0.01s ease-in-out both;
+    animation: fadebg 0.01s ease-in-out both;
+}
+.choses{
+	-webkit-animation: moveToLeft 0.1s ease-in-out both;
+    -moz-animation: moveToLeft 0.1s ease-in-out both;
+    animation: moveToLeft 0.1s ease-in-out both;
+	 
+}
+.leftMenu .menuNav{
+	width: 70%;
+	height: 100%;
+	background-color: #ffffff;
+	color: #6f1c23;
+	padding-top: 35px;
+	text-align: center;
+}
+.top .topsP{
+	width: 100%;
+	margin: 0 auto;
+	font-size: 15px;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.top .signout{
+	background-color: #6f1c23;
+	margin: 10px 0;
+	padding: 20px 0;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 14px;
+	
+}
+.fWhere{
+		text-decoration: none;
+	width: 100%;
+	font-size: 14px;
+	margin-top: 40px;
+}
+.fWhere img{
+	margin-bottom: 5px;
+}
+
+.menuF ul li{
+	display: inline-block;
+	width: 48%;
+	margin-top: 25px;
+	font-size: 13px;
+	color: #6f1c23;
+}
+.menuF{
+   text-decoration: none;
+}
+.fWhere a p{
+     color: #6f1c23;
+     	text-decoration: none;
+}
+.menuF ul li img{
+	margin-bottom: 5px;
+}
+.colses{
+	margin-top: 40px;
 }

@@ -9,9 +9,12 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" href="css/index.css" />
 <link rel="stylesheet" href="css/notification.css" />
+<link rel="stylesheet" href="css/styles.css" />
 <link href="css/animations.css" rel="stylesheet" type="text/css">
 <script src="js/touch-0.2.14.min.js"></script>
 <script src="js/zepto.min.js"></script>
+<script type="text/javascript" src="js/jquery.min.js" ></script>
+<script type="text/javascript" src="js/yxMobileSlider.js" ></script>
 <title>notification</title>
 <style type="text/css">
 
@@ -69,16 +72,15 @@ $(document).ready(function(){
 			$("#menuNav ul li").removeClass('choseN');
 			$(this).addClass('choseN');
 		 });
-		touch.on('#menus', 'tap', function(ev){
+         touch.on('#menus', 'tap', function(ev){
 			  $(".leftMenu").removeClass("hide");
 			  $(".leftMenu").removeClass("choses");
-			 
+			  	 $(".leftMenu").addClass("leftMenubg");	 
 		 });
 		 touch.on('#colse', 'tap', function(ev){
 			  $(".leftMenu").addClass("choses");
-			  
-			 
-		 });
+			   $(".leftMenu").removeClass("leftMenubg");
+			    });
 	});
 </script>
 </head>
@@ -86,7 +88,16 @@ $(document).ready(function(){
 <div class="main">
 <div class="header">
 	<div class="thead">
-		<p>Notification</p>
+		<ul>
+					<li><img id="menus" src="images/icons/menu.png" width="30px"/></li>
+			<li class="about">
+				<div class="checks">
+					<img src="images/icons/search.png" alt="" width="20px" />
+					<input type="text" width="80%" />
+				</div>
+			</li>
+			<li><a href="cart.html"><img src="images/icons/cart.png" alt="" width="28px"/></a></li>
+		</ul>
 	</div>
 </div>
 <div class="contents" style="margin-bottom: 110px;">
@@ -156,6 +167,49 @@ $(document).ready(function(){
  		<a href="scan.html"><img src="images/center.png" alt=""/></a>
 	 </div>
 </div>
+</div>
+<div class="leftMenu hide">	
+	<div class="menuNav">
+		<div class="top">
+			<p class="topsP">YOU HAVE 1930 POINTS</p>
+			<p class="signout">SIGN OUT</p>
+		</div>
+		<div class="menuF">
+			<div class="fWhere">
+				<a href="donation.html"><img src="images/icons/placeholder.png" alt="" width="46px" /></a>
+				<p>GOODWILL NEARBY</p>
+			</div>
+			<ul>
+				<a href="coupons.html"><li>
+					<img src="images/icons/COUPAN copy.png" alt="" width="46px" />
+					<p>COUPONS</p>
+				</li></a>
+				<a href="points.html"><li>
+					<img src="images/icons/points.png" alt="" width="46px" />
+					<p>POINTS</p>
+				</li></a>
+				<a href="home.html"><li>
+					<img src="images/icons/HOME.png" alt="" width="46px" />
+					<p>HOME</p>
+				</li></a>
+				<a href="store.html"><li>
+					<img src="images/icons/STORE.png" alt="" width="46px" />
+					<p>STORE</p>
+				</li></a>
+				<a href="favor.html"><li>
+					<img src="images/icons/favor.png" alt="" width="46px" />
+					<p>FAVORITE</p>
+				</li></a>
+				<a href="setting.html"><li>
+					<img src="images/icons/setting.png" alt="" width="46px" />
+					<p>SETTING</p>
+				</li></a>
+			</ul>
+			<p class="colses">
+				<img id="colse" src="images/icons/close copy.png" alt="" width="30px" />
+			</p>
+		</div>
+	</div>
 </div>
 </body>
 </html>
