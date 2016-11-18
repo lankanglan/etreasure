@@ -1,5 +1,9 @@
 
-.buyP input {
+.redeembtn {
+    padding: 8px 0;
+}
+
+    .buyP input {
     margin-top: 15px;
     width: 80%;
    }
