@@ -1,3 +1,29 @@
+
+.makebtn{
+	width: 80%;
+	position: relative;
+	height: 48px;
+	display: inline-block;
+	text-align: center;
+	padding:8px 20px; 
+	border-radius: 40px;
+	cursor: pointer;
+	color: #fff;	
+	background: #6f1c23;
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 48px;
+	text-decoration: none;	
+}
+#makebtn0{
+	margin-top:-30px;
+	background: #fff;
+	border: 2px solid #6f1c23;
+	color: #6f1c23;
+}
+.makebtn a{
+    text-decoration: none;
+}
 .products{
 	width: 80%;
 	margin:20px auto;

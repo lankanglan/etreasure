@@ -1,6 +1,6 @@
 
 .makebtn{
-	width: 80%;
+	width: 70%;
 	position: relative;
 	height: 48px;
 	display: inline-block;
@@ -15,13 +15,16 @@
 	line-height: 48px;
 	text-decoration: none;	
 }
+#makebtn0{
+	margin-top:-30px;
+	background: #fff;
+	border: 2px solid #6f1c23;
+	color: #6f1c23;
+}
 .makebtn a{
     text-decoration: none;
 }
-.makebtn:active{
-	background: #858585;
-}
-  .buyP input {
+  .buyP button {
     margin-top: 15px;
     width: 80%;
    }
