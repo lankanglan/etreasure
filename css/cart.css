@@ -1,4 +1,6 @@
-.proceed{
+.makebtn{
+	width: 70%;	
+}.proceed{
 	width: 100%;
 	text-align: center;
 }
@@ -10,14 +12,15 @@
 .proceed p .money{
 	color:#6e1c22 ;
 }
-.proceed input{
+.delete{
+	text-align: center;
 	background-color:#6e1c22 ;
 	color: #FFFFFF;
 	border:none;
 	width: 80%;
   	border-radius: 30px;
-  	height:65px;
-  	margin-top: 20px;
+  	height:48px;
+  	line-height: 48px;
   	font-size: 16px;
 }
 .buyShop{
