@@ -77,13 +77,13 @@ $(document).ready(function(){
 		touch.on('#menus', 'tap', function(ev){
 			  $(".leftMenu").removeClass("hide");
 			  $(".leftMenu").removeClass("choses");
-			 
+			  	 $(".leftMenu").addClass("leftMenubg");	 
 		 });
 		 touch.on('#colse', 'tap', function(ev){
 			  $(".leftMenu").addClass("choses");
-			  
-			 
-		 });
+			   $(".leftMenu").removeClass("leftMenubg");
+			    });
+
 	});
 </script>
 </head>
@@ -92,7 +92,7 @@ $(document).ready(function(){
 <div class="header">
 	<div class="thead">
 		<ul>
-			<li><a href="account.html"><img id="menus" src="images/icons/back l.png" width="30px"/></a></li>
+			<li><img id="menus" src="images/icons/menu.png" width="30px"/></li>
 			<li class="about">
 				<div class="checks">
 					<img src="images/icons/search.png" alt="" width="20px" />
@@ -235,6 +235,49 @@ $(document).ready(function(){
  		<img src="images/center.png"/> 
 	 </div>
 </div>
+</div>
+<div class="leftMenu hide">	
+	<div class="menuNav">
+		<div class="top">
+			<p class="topsP">YOU HAVE 1930 POINTS</p>
+			<p class="signout">SIGN OUT</p>
+		</div>
+		<div class="menuF">
+			<div class="fWhere">
+				<a href="donation.html"><img src="images/icons/placeholder.png" alt="" width="46px" /></a>
+				<p>GOODWILL NEARBY</p>
+			</div>
+			<ul>
+				<a href="coupons.html"><li>
+					<img src="images/icons/COUPAN copy.png" alt="" width="46px" />
+					<p>COUPONS</p>
+				</li></a>
+				<a href="points.html"><li>
+					<img src="images/icons/points.png" alt="" width="46px" />
+					<p>POINTS</p>
+				</li></a>
+				<a href="home.html"><li>
+					<img src="images/icons/HOME.png" alt="" width="46px" />
+					<p>HOME</p>
+				</li></a>
+				<a href="store.html"><li>
+					<img src="images/icons/STORE.png" alt="" width="46px" />
+					<p>STORE</p>
+				</li></a>
+				<a href="favor.html"><li>
+					<img src="images/icons/favor.png" alt="" width="46px" />
+					<p>FAVORITE</p>
+				</li></a>
+				<a href="setting.html"><li>
+					<img src="images/icons/setting.png" alt="" width="46px" />
+					<p>SETTING</p>
+				</li></a>
+			</ul>
+			<p class="colses">
+				<img id="colse" src="images/icons/close copy.png" alt="" width="30px" />
+			</p>
+		</div>
+	</div>
 </div>
 </body>
 </html>

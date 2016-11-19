@@ -71,16 +71,20 @@ $(document).ready(function(){
 			 $('#account1').attr('class','account2');
 			 
 		 });
+				 touch.on('#menuNav ul li', 'tap', function(ev){
+			$("#menuNav ul li").removeClass('choseM');
+			$(this).addClass('choseM');
+		 });
 		touch.on('#menus', 'tap', function(ev){
 			  $(".leftMenu").removeClass("hide");
 			  $(".leftMenu").removeClass("choses");
-			 
+			  	 $(".leftMenu").addClass("leftMenubg");	 
 		 });
 		 touch.on('#colse', 'tap', function(ev){
 			  $(".leftMenu").addClass("choses");
-			  
-			 
-		 });
+			   $(".leftMenu").removeClass("leftMenubg");
+			    });
+
 	});
 </script>
 </head>
@@ -91,9 +95,12 @@ $(document).ready(function(){
 		<ul>
 			<li><img id="menus" src="images/icons/menu.png" width="30px"/></li>
 			<li class="about">
-				 
+				<div class="checks">
+					<img src="images/icons/search.png" alt="" width="20px" />
+					<input type="text" width="80%" />
+				</div>
 			</li>
-			<li><a href="home.html"><img src="images/icons/delete.png" alt="" width="28px"/></a></li>
+			<a href="cart.html"><li><img src="images/icons/cart.png" alt="" width="28px"/></li></a>
 		</ul>
 	</div>
 </div>
@@ -101,7 +108,7 @@ $(document).ready(function(){
 	<div class="completes">
 		<div class="deails">
 			<p class="deal1"><img src="images/icons/ok1.png" width="50px"/></p>
-			<p class="deal2">THANK YOU,YOUR ORDER HAS AEEN PLACED</p>
+			<p class="deal2">THANK YOU, YOUR ORDER HAS BEEN PLACED.</p>
 			<p class="deal3">An email confrimarion has been send to you</p>
 		</div>
 		<div class="next">
@@ -145,8 +152,44 @@ $(document).ready(function(){
 	<div class="menuNav">
 		<div class="top">
 			<p class="topsP">YOU HAVE 1930 POINTS</p>
-			<p class="sign">SIGN OUT</p>
+			<p class="signout">SIGN OUT</p>
 		</div>
-
+		<div class="menuF">
+			<div class="fWhere">
+				<a href="donation.html"><img src="images/icons/placeholder.png" alt="" width="46px" /></a>
+				<p>GOODWILL NEARBY</p>
+			</div>
+			<ul>
+				<a href="coupons.html"><li>
+					<img src="images/icons/COUPAN copy.png" alt="" width="46px" />
+					<p>COUPONS</p>
+				</li></a>
+				<a href="points.html"><li>
+					<img src="images/icons/points.png" alt="" width="46px" />
+					<p>POINTS</p>
+				</li></a>
+				<a href="home.html"><li>
+					<img src="images/icons/HOME.png" alt="" width="46px" />
+					<p>HOME</p>
+				</li></a>
+				<a href="store.html"><li>
+					<img src="images/icons/STORE.png" alt="" width="46px" />
+					<p>STORE</p>
+				</li></a>
+				<a href="favor.html"><li>
+					<img src="images/icons/favor.png" alt="" width="46px" />
+					<p>FAVORITE</p>
+				</li></a>
+				<a href="setting.html"><li>
+					<img src="images/icons/setting.png" alt="" width="46px" />
+					<p>SETTING</p>
+				</li></a>
+			</ul>
+			<p class="colses">
+				<img id="colse" src="images/icons/close copy.png" alt="" width="30px" />
+			</p>
+		</div>
+	</div>
+</div>
 </body>
 </html>
