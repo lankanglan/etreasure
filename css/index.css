@@ -109,7 +109,6 @@ body {
 .homeMeu dl{
 	width: 96%;
 	margin:10px auto;
-	margin-left:5%;
 	
 }
 .homeMeu dl dt{
@@ -127,6 +126,10 @@ body {
 	font-size: 12px;
 	font-weight: 600;
 	line-height: 25px;
+}
+.homeMeu dl dt a{
+	text-decoration: none;
+	color:: #6f1c23; 
 }
 .container{
 	width: 100%;
