@@ -16,6 +16,21 @@
 	text-decoration: none;	
 		border: 2px solid #6f1c23;
 }
+.favora{
+	height: 30px;
+	background: url(../images/icons/favora.png) center center no-repeat;
+	background-size: 30px;
+}
+.votea{
+	height: 30px;
+	background: url(../images/icons/votea.png) center center no-repeat;
+	background-size: 30px;
+}
+.sharea{
+	height: 30px;
+	background: url(../images/icons/sharea.png) center center no-repeat;
+	background-size: 30px;
+}
 #makebtn0{
 	margin-top:-30px;
 	background: #fff;

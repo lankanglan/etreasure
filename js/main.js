@@ -1,4 +1,4 @@
-$(function(){
+(function(){
 		var _w = document.documentElement.clientWidth;
 		var _fontsize = (_w / 640) * 20;
 		var style = document.createElement('style');
@@ -23,28 +23,29 @@ $(function(){
 		});
 	});
 $(document).ready(function(){
-	touch.on('#home2', 'tap', function(ev){
-			 $('#home2').attr('class','home1');
+	touch.on('#home1', 'tap', function(ev){
+			 $('#home1').attr('class','home1');
 			 $('#store1').attr('class','store1');
 			 $('#nations1').attr('class','nations1');
 			 $('#account1').attr('class','account1');
+			 
 		 });
 		 touch.on('#store1', 'tap', function(ev){
-			 $('#home2').attr('class','home1');
+			 $('#home1').attr('class','home2');
 			 $('#store1').attr('class','store2');
 			 $('#nations1').attr('class','nations1');
 			 $('#account1').attr('class','account1');
 			 
 		 });
 		 touch.on('#nations1', 'tap', function(ev){
-			 $('#home2').attr('class','home1');
+			 $('#home1').attr('class','home2');
 			 $('#store1').attr('class','store1');
 			 $('#nations1').attr('class','nations2');
 			 $('#account1').attr('class','account1');
 			 
 		 });
 		 touch.on('#account1', 'tap', function(ev){
-			 $('#home2').attr('class','home1');
+			 $('#home1').attr('class','home2');
 			 $('#store1').attr('class','store1');
 			 $('#nations1').attr('class','nations1');
 			 $('#account1').attr('class','account2');
@@ -57,11 +58,17 @@ $(document).ready(function(){
 		touch.on('#menus', 'tap', function(ev){
 			  $(".leftMenu").removeClass("hide");
 			  $(".leftMenu").removeClass("choses");
-			 
+			  	 $(".leftMenu").addClass("leftMenubg");	 
 		 });
 		 touch.on('#colse', 'tap', function(ev){
 			  $(".leftMenu").addClass("choses");
-			  
-			 
+			   $(".leftMenu").removeClass("leftMenubg");
+			    });
+		 touch.on('#favor', 'tap', function(ev){
+			  $(this).toggleClass('favora');
 		 });
+		 touch.on('#vote', 'tap', function(ev){
+			  $(this).toggleClass('votea');
+		 });
+
 	});

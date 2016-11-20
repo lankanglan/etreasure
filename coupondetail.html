@@ -9,7 +9,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" href="css/index.css" />
 <link rel="stylesheet" href="css/confirmpoints.css" />
-
+<script type="text/javascript" src="js/main.js" ></script>
 <link rel="stylesheet" href="css/coupondetail.css" />
 <link href="css/animations.css" rel="stylesheet" type="text/css">
 <script src="js/touch-0.2.14.min.js"></script>
@@ -19,54 +19,7 @@
 
 </style>
 <script>
-(function(){
-		var _w = document.documentElement.clientWidth;
-		var _fontsize = (_w / 640) * 20;
-		var style = document.createElement('style');
-		style.type = 'text/css';
-		style.innerHTML = 'body{font-size:' + _fontsize + 'px}';
-		document.getElementsByTagName('head').item(0).appendChild(style);
-		 
-	})();
-	$(function(){
-		$(".cirle").click(function(){
-			$(".cirle").find("img").css("background-color","#fff")
-			var indx=$(this).parents("li").find(".shopCarts");
-			$(".cirle").find("img").attr("src","images/icons/more.png");
-			$(this).find("img").attr("src","images/icons/morea.png"); 
-			$(".shopCarts").addClass("hide");
-	 		$(indx).removeClass("hide");
-		});
-	});
 $(document).ready(function(){
-	touch.on('#home1', 'tap', function(ev){
-			 $('#home1').attr('class','home1');
-			 $('#store1').attr('class','store1');
-			 $('#nations1').attr('class','nations1');
-			 $('#account1').attr('class','account1');
-			 
-		 });
-		 touch.on('#store1', 'tap', function(ev){
-			 $('#home1').attr('class','home2');
-			 $('#store1').attr('class','store2');
-			 $('#nations1').attr('class','nations1');
-			 $('#account1').attr('class','account1');
-			 
-		 });
-		 touch.on('#nations1', 'tap', function(ev){
-			 $('#home1').attr('class','home2');
-			 $('#store1').attr('class','store1');
-			 $('#nations1').attr('class','nations2');
-			 $('#account1').attr('class','account1');
-			 
-		 });
-		 touch.on('#account1', 'tap', function(ev){
-			 $('#home1').attr('class','home2');
-			 $('#store1').attr('class','store1');
-			 $('#nations1').attr('class','nations1');
-			 $('#account1').attr('class','account2');
-			 
-		 });
 		touch.on('#makebtn', 'tap', function(ev){
 			  $(this).css("background-color","#666666");
 			  $(this).css("border","1px solid #666666");
@@ -87,7 +40,7 @@ $(document).ready(function(){
 					<input type="text" width="80%" />
 				</div>
 			</li>
-			<li><img src="images/icons/cart.png" alt="" width="28px"/></li>
+			<a href="cart.html"><li><img src="images/icons/cart.png" alt="" width="28px"/></li></a>
 		</ul>
 	</div>
 </div>

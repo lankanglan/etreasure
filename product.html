@@ -81,8 +81,16 @@ $(document).ready(function(){
 		 });
 		 touch.on('#colse', 'tap', function(ev){
 			  $(".leftMenu").addClass("choses");
-			  
-			 
+		 });
+
+		 touch.on('#favor', 'tap', function(ev){
+			  $(this).toggleClass('favora');
+		 });
+		 touch.on('#vote', 'tap', function(ev){
+			  $(this).toggleClass('votea');
+		 });
+		 touch.on('#share', 'tap', function(ev){
+			  $(this).toggleClass('sharea');
 		 });
 	});
 </script>
@@ -114,7 +122,7 @@ $(document).ready(function(){
 			<p>Pamper Diapers in target $5.00 off</p>
 
 			<p class="pmoney"><span>30 points</span> <span class="cirle"><span class="ms">store only</span></span></p>
-			<p class="sf"><span><img src="images/icons/favor.png" width="30px" /></span><span><img src="images/icons/vote.png" width="30px" /></span><span><img src="images/icons/share.png" width="30px"/></span></p>
+			<p class="sf"><span><img src="images/icons/favor.png" id="favor" width="30px" /></span><span><img src="images/icons/vote.png" id="vote" width="30px" /></span><span><img src="images/icons/share.png" id="share" width="30px"/></span></p>
 		</div>
 		<div class="buyP">
 			<p class="Chosenumber"><span><img src="images/icons/MINU copy.png" width="35"/></span><span class="numbers">1qty.</span><span><img src="images/icons/ADD copy.png" width="35"/></span></p>

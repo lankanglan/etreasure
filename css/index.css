@@ -150,6 +150,22 @@ body {
 	border-bottom: 2px solid #9e9e9e;
 	padding-bottom: 2px;
 }
+.BUYa{
+	background: url(../images/icons/BUYa.png) center center no-repeat;
+	background-size: 25px;
+}
+.favora{
+	background: url(../images/icons/favora.png) center center no-repeat;
+	background-size: 25px;
+}
+.votea{
+	background: url(../images/icons/votea.png) center center no-repeat;
+	background-size: 28px;
+}
+.sharea{
+	background: url(../images/icons/sharea.png) center center no-repeat;
+	background-size: 21px;
+}
 .shops ul li{
 	display: inline-block;
 	vertical-align: text-top;
