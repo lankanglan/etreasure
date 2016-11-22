@@ -31,7 +31,7 @@
 }
 .deails{
 	width: 100%;
-	border-bottom: 2px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
 }
 .deails p{
 	width: 90%;
@@ -58,7 +58,7 @@
 	margin: 0 auto;
 	padding: 23px 0;
 	text-align: center;
-	border-bottom: 2px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
 	color: #6f1c23;
 	font-size: 16px;
 }
