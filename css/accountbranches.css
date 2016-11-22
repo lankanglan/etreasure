@@ -137,7 +137,7 @@
 	margin: 0 auto;
 }
 .choseN{
-	border-bottom: 1px solid #6f1c23;
+	border-bottom: 2px solid #6f1c23;
 }
 /*setting*/
 .tps{
@@ -220,7 +220,7 @@
 	margin: 0 auto;
 	margin-top: 25px;
 	padding-bottom: 10px;
-	border-bottom: 2px solid #898989;
+	border-bottom: 1px solid #898989;
 }
 .dontion ul{
 	width: 98%;
