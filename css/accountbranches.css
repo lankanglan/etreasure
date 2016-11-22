@@ -12,7 +12,7 @@
 	margin: 0 auto;
 	margin-top: 25px;
 	padding-bottom: 10px;
-	border-bottom: 1px solid #CCCCCC;
+	border-bottom: 1px solid #898989;
 }
 .cpsp ul{
 	width: 98%;
@@ -31,7 +31,7 @@
 	margin: 0 auto;
 	margin-top: 25px;
 	padding-bottom: 10px;
-	border-bottom: 1px solid #CCCCCC;
+	border-bottom: 1px solid #898989;
 }
 .cpsp1 ul{
 	width: 98%;
@@ -89,7 +89,7 @@
 	width: 90%;
 	margin: 0 auto;
 	position: relative;
-	border-bottom: 1px solid #CCCCCC;
+	border-bottom: 1px solid #898989;
 	padding-bottom: 8px;
 	margin-top: 12px;
 }
@@ -125,7 +125,7 @@
 	width: 96%;
 	margin: 0 auto;
 	margin-top: 30px;
-	border-bottom: 1px solid #CCCCCC;
+	border-bottom: 1px solid #898989;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
 }
@@ -160,7 +160,7 @@
 	font-size: 20px;
 	font-weight: 600;
 	color:#6f1c23;
-	border-bottom: 1px solid #CCCCCC;
+	border-bottom: 1px solid #898989;
 }
 .settings{
 	width: 100%;
@@ -172,7 +172,7 @@
 }
 .settings ul li{
 	margin-top:15px;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #898989;
 	padding-bottom: 8px;
 	position: relative;
 	padding-left: 3px;
@@ -209,7 +209,7 @@
 	font-size: 20px;
 	font-weight: 600;
 	color:#6f1c23;
-	border-bottom: 1px solid #CCCCCC;
+	border-bottom: 1px solid #898989;
 	padding-left: 5px;
 }
 .donations .dontion:last-child{
@@ -220,7 +220,7 @@
 	margin: 0 auto;
 	margin-top: 25px;
 	padding-bottom: 10px;
-	border-bottom: 2px solid #CCCCCC;
+	border-bottom: 2px solid #898989;
 }
 .dontion ul{
 	width: 98%;
