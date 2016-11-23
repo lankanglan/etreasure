@@ -117,6 +117,7 @@
 	margin-right: 10px;
 }
 /*favor*/
+
 .favorTitle{
 	width: 96%;
 	margin: 0 auto;
@@ -132,9 +133,17 @@
 	width: 90%;
 	margin: 0 auto;
 }
-.choseN{
-	border-bottom: 2px solid #6f1c23;
-}
+/*.favordelete{
+	margin-left: 15px;
+	padding-left: 10px; 
+	bottom:15px;
+	width: 10%;
+	height: 60px;
+	border-left: 1px solid #898989;
+	position: absolute;
+	right: 0;
+	line-height: 60px;
+}*/
 /*setting*/
 .tps{
 	width: 100%;
