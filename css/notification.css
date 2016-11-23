@@ -20,6 +20,11 @@
 	padding-bottom: 8px;
 	font-size: 14px;
 	color: #6f1c23;
+	text-decoration: none;
+}
+.natMenus ul li a{
+    	color: #6f1c23;
+	text-decoration: none;
 }
 .natMenus ul li:last-child{
 	float: right;
