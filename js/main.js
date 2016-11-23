@@ -71,4 +71,17 @@ $(document).ready(function(){
 			  $(this).toggleClass('votea');
 		 });
 
+		 		 touch.on('.adds', 'tap', function(ev){
+			  var nu = $(this).parents("p").find(".nubs").val();
+			  var nuit = parseInt(nu)+1;
+			  $(this).parents("p").find(".nubs").val(nuit);
+		 });
+		 touch.on('.subt', 'tap', function(ev){
+			  var nu = $(this).parents("p").find(".nubs").val();
+			  if(parseInt(nu)>0){
+				  var nuit = parseInt(nu)-1;
+				  $(this).parents("p").find(".nubs").val(nuit);
+			  }
+		 });
+
 	});

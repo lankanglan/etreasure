@@ -8,6 +8,7 @@
 <meta content="telephone=no" name="format-detection">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" href="css/index.css" />
+<link rel="stylesheet" href="css/cart.css" />
 <link rel="stylesheet" href="css/product.css" />
 <link href="css/animations.css" rel="stylesheet" type="text/css">
 <script src="js/touch-0.2.14.min.js"></script>
@@ -92,6 +93,18 @@ $(document).ready(function(){
 		 touch.on('#share', 'tap', function(ev){
 			  $(this).toggleClass('sharea');
 		 });
+		  touch.on('.adds', 'tap', function(ev){
+			  var nu = $(this).parents("p").find(".nubs").val();
+			  var nuit = parseInt(nu)+1;
+			  $(this).parents("p").find(".nubs").val(nuit);
+		 });
+		 touch.on('.subt', 'tap', function(ev){
+			  var nu = $(this).parents("p").find(".nubs").val();
+			  if(parseInt(nu)>0){
+				  var nuit = parseInt(nu)-1;
+				  $(this).parents("p").find(".nubs").val(nuit);
+			  }
+		 });
 	});
 </script>
 </head>
@@ -127,9 +140,9 @@ $(document).ready(function(){
 			<p class="sf"><span><img src="images/icons/favor.png" id="favor" width="30px" /></span><span><img src="images/icons/vote.png" id="vote" width="30px" /></span><span><img src="images/icons/share.png" id="share" width="30px"/></span></p>
 		</div>
 		<div class="buyP">
-			<p class="Chosenumber"><span><img src="images/icons/MINU copy.png" width="35"/></span><span class="numbers">1qty.</span><span><img src="images/icons/ADD copy.png" width="35"/></span></p>
+			<p class="Chosenumber"><span><img src="images/icons/MINU copy.png" width="35" class="subt"/></span><span class="numbers"><input type="text" value="1" name="nubs" class="nubs"/>qty.</span><span><img  src="images/icons/ADD copy.png" width="35" class="adds"/></span></p>
 
-			<div class="redeem" style="margin-top: 40px;">
+			<div class="redeem" style="margin-top: 5px;">
 			<a href="payment.html" class="makebtn" id="makebtn" >BUY IT NOW</a></div>
 
 			<div class="redeem" style="margin-top: 40px;">

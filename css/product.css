@@ -83,26 +83,12 @@
 
 .buyP{
 	text-align: center; 
-	margin-top: 15px;
+	margin-top: 25px;
 }
 .buyP p span{
 	margin-right: 5%;
 }
-.buyP input{
-	margin-top: 15px;
-	width: 100%;
-	border-radius: 40px;
-	background-color: #FFFFFF;
-	border: 1px solid #6f1c23;
-	color:#6f1c23 ;
-	display: inline-block;
-	text-align: center;
-	padding:5px 40px; 
-	font-family: Arial;
-	font-size: 18px;
-	line-height: 48px;
-	text-decoration: none;
-}
+
 .buyP .pChose{
 	background-color:#6f1c23 ;
 	color: #FFFFFF;
