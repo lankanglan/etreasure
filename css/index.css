@@ -61,8 +61,25 @@ body {
 }
 .thead ul li:last-child{
 	width: 16%;
+	height: 33px;
 	text-align: center;
 	vertical-align: middle;
+	position: relative;
+	background: url(../images/icons/cart.png) center bottom no-repeat;
+	background-size: 28px 29px;
+}
+.cartsChange p{
+	position: absolute;
+	width: 20px;
+	background-color: rgba(255,255,255,1);
+	border-radius: 50%;
+	top:0;
+	left: 40%;
+	line-height: 20px;
+	color: #6f1c23;
+	 
+}
+.cartsChange .cartnub{
 }
 .thead ul .about{
 	width: 62%;
@@ -73,6 +90,7 @@ body {
 	background-color: #fff;
 	border-radius: 5px;
 }
+
 .thead ul .about .checks img{
 	vertical-align: middle;
 	margin-left: 5px;
@@ -150,6 +168,9 @@ body {
 	border-bottom: 1px solid #9e9e9e;
 	padding-bottom: 2px;
 }
+/*#addToc span:hover{
+   	color:: #6f1c23; 
+}*/
 .BUYa{
 	background: url(../images/icons/BUYa.png) center center no-repeat;
 	background-size: 25px;

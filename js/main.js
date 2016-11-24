@@ -1,4 +1,4 @@
-(function(){
+;(function(){
 		var _w = document.documentElement.clientWidth;
 		var _fontsize = (_w / 640) * 20;
 		var style = document.createElement('style');
@@ -21,6 +21,15 @@
 	 			$(".cirle").find("img").attr("src","images/icons/more.png");
 	 		}
 		});
+		$(".sharebtn").click(function(){
+			 $(".share").removeClass("hide");
+			 $(this).css("color","#6f1c23");
+		});
+		$(".cancelbtn").click(function(){
+			 $(".share").addClass("hide");
+			 $(".sharebtn").css("color","#898989");
+		});
+		
 
 	});
 
@@ -73,7 +82,7 @@ $(document).ready(function(){
 			  $(this).toggleClass('votea');
 		 });
 
-		 		 touch.on('.adds', 'tap', function(ev){
+		 touch.on('.adds', 'tap', function(ev){
 			  var nu = $(this).parents("p").find(".nubs").val();
 			  var nuit = parseInt(nu)+1;
 			  $(this).parents("p").find(".nubs").val(nuit);
@@ -84,6 +93,17 @@ $(document).ready(function(){
 				  var nuit = parseInt(nu)-1;
 				  $(this).parents("p").find(".nubs").val(nuit);
 			  }
+		 });
+		 touch.on('#buts', 'tap', function(ev){
+			  $(this).css("background-color","#666666");
+			  $(this).css("border","1px solid #666666");
+		 });
+		 touch.on('#addToc', 'tap', function(ev){
+		 	$(this).css("color","#6f1c23");
+		 	  $(".cartnub").css("display","block");
+			  var nu = $(".cartnub").text();
+			  var nuit = parseInt(nu)+1;
+			  $(".cartnub").text(nuit);
 		 });
 
 	});

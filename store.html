@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -35,7 +36,7 @@
 					<input type="text" width="80%" />
 				</div>
 			</li>
-			<li><a href="cart.html"><img src="images/icons/cart.png" alt="" width="28px"/></a></li>
+			<a href="cart.html"><li class="cartsChange"><p class="cartnub" style="display: none;">0</p></li></a>
 		</ul>
 	</div>
 </div>
@@ -169,8 +170,8 @@
 					<div class="shopCarts hide">
 						<ul>
 							<li><a href="payment.html"><img src="images/icons/BUYb.png" width="28px"/> <span >BUY IT NOW</span></a></li>
-							<li><img src="images/icons/cart1.png"  id="cart1" width="25px"/> <span>ADD TO CART</span></li>
-							<li><img src="images/icons/share.png" id="share" width="21px"/> <span>&nbsp;SHARE</span></li>
+							<li type="button" id="addToc" name="Acart"><img src="images/icons/cart1.png"  width="25px"/> <span>ADD TO CART</span></li>
+							<li class="sharebtn"><img src="images/icons/share.png" id="share" width="21px"/> <span>&nbsp;SHARE</span></li>
 							</ul>
 						<!-- 向下的三角形 -->
 						<span class="triangle_border_down">
@@ -195,8 +196,8 @@
 					<div class="shopCarts hide">
 						<ul>
 							<li><a href="payment.html"><img src="images/icons/BUYb.png" width="28px"/> <span >BUY IT NOW</span></a></li>
-							<li><img src="images/icons/cart1.png"  id="cart1" width="25px"/> <span>ADD TO CART</span></li>
-							<li><img src="images/icons/share.png" id="share" width="21px"/> <span>&nbsp;SHARE</span></li>
+							<li type="button" id="addToc" name="Acart"><img src="images/icons/cart1.png"  width="25px"/> <span>ADD TO CART</span></li>
+							<li class="sharebtn"><img src="images/icons/share.png" id="share" width="21px"/> <span>&nbsp;SHARE</span></li>
 							</ul>
 						<!-- 向下的三角形 -->
 						<span class="triangle_border_down">
@@ -223,8 +224,8 @@
 					<div class="shopCarts hide">
 						<ul>
 							<li><a href="payment.html"><img src="images/icons/BUYb.png" width="28px"/> <span >BUY IT NOW</span></a></li>
-							<li><img src="images/icons/cart1.png"  id="cart1" width="25px"/> <span>ADD TO CART</span></li>
-							<li><img src="images/icons/share.png" id="share" width="21px"/> <span>&nbsp;SHARE</span></li>
+							<li type="button" id="addToc" name="Acart"><img src="images/icons/cart1.png"  width="25px"/> <span>ADD TO CART</span></li>
+							<li class="sharebtn"><img src="images/icons/share.png" id="share" width="21px"/> <span>&nbsp;SHARE</span></li>
 							</ul>
 						<!-- 向下的三角形 -->
 						<span class="triangle_border_down">
@@ -245,8 +246,8 @@
 					<div class="shopCarts hide">
 						<ul>
 							<li><a href="payment.html"><img src="images/icons/BUYb.png" width="28px"/> <span >BUY IT NOW</span></a></li>
-							<li><img src="images/icons/cart1.png"  id="cart1" width="25px"/> <span>ADD TO CART</span></li>
-							<li><img src="images/icons/share.png" id="share" width="21px"/> <span>&nbsp;SHARE</span></li>
+							<li type="button" id="addToc" name="Acart"><img src="images/icons/cart1.png"  width="25px"/> <span>ADD TO CART</span></li>
+							<li class="sharebtn"><img src="images/icons/share.png" id="share" width="21px"/> <span>&nbsp;SHARE</span></li>
 							</ul>
 						<!-- 向下的三角形 -->
 						<span class="triangle_border_down">
@@ -328,6 +329,10 @@
 			</p>
 		</div>
 	</div>
+</div>
+<div class="share hide">
+	<img src="images/shareimage.png" / >
+	<button class="cancelbtn">Cancel</button>
 </div>
 </body>
 </html>

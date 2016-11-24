@@ -12,14 +12,27 @@
 <link rel="stylesheet" href="css/product.css" />
 <link href="css/animations.css" rel="stylesheet" type="text/css">
 <script src="js/touch-0.2.14.min.js"></script>
-<script src="js/main.js"></script>
+<script type="text/javascript" src="js/main.js" ></script>
 <script src="js/zepto.min.js"></script>
 <title>product</title>
 <style type="text/css">
 
 </style>
 <script>
+	$(function(){
+		$(".sharebtn").click(function(){
+			 $(".share").removeClass("hide");
+			 $(this).find("img").attr("src","images/icons/sharea.png");
+			 $(this).css("color","#6f1c23");
+		});
+		$(".cancelbtn").click(function(){
+			 $(".share").addClass("hide");
+			 $(".sharebtn").find("img").attr("src","images/icons/sharea.png");
+			 $(".sharebtn").css("color","#898989");
+		});
+		
 
+	});
 $(document).ready(function(){
 		 touch.on('#favor', 'tap', function(ev){
 			  $(this).toggleClass('favora');
@@ -42,6 +55,17 @@ $(document).ready(function(){
 				  $(this).parents("p").find(".nubs").val(nuit);
 			  }
 		 });
+		touch.on('#buts', 'tap', function(ev){
+			  $(this).css("background-color","#666666");
+			  $(this).css("border","1px solid #666666");
+		 });
+		 touch.on('#addToc', 'tap', function(ev){
+		 	  $(".cartnub").css("display","block");
+			  var nu = $(".cartnub").text();
+			  var nuit = parseInt(nu)+1;
+			  $(".cartnub").text(nuit);
+		 });
+		 
 		 touch.on('#buyIT', 'tap', function(ev){
 			  var nu = $(".nubs").val();
 			  var myurl="payment.html"+"?"+"number="+nu; 
@@ -63,8 +87,7 @@ $(document).ready(function(){
 				</div>
 				</li>
 
-			<li><a href="cart.html"><img src="images/icons/cart.png" alt="" width="28px"/></a></li>
-
+           <a href="cart.html"><li class="cartsChange"><p class="cartnub" style="display: none;">0</p></li></a>
 		</ul>
 	</div>
 </div>
@@ -79,7 +102,7 @@ $(document).ready(function(){
 			<p>Pamper Diapers in target $5.00 off</p>
 
 			<p class="pmoney"><span>30 points</span> <span class="cirle"><span class="ms">store only</span></span></p>
-			<p class="sf"><span><img src="images/icons/favor.png" id="favor" width="30px" /></span><span><img src="images/icons/vote.png" id="vote" width="30px" /></span><span><img src="images/icons/share.png" id="share" width="30px"/></span></p>
+			<p class="sf"><span><img src="images/icons/favor.png" id="favor" width="30px" /></span><span><img src="images/icons/vote.png" id="vote" width="30px" /></span><span class="sharebtn"><img src="images/icons/share.png" id="share" width="30px"/></span></p>
 		</div>
 		<div class="buyP">
 			<p class="Chosenumber"><span><img src="images/icons/MINU copy.png" width="35" class="subt"/></span><span class="numbers"><input type="text" value="1" name="nubs" class="nubs"/>qty.</span><span><img  src="images/icons/ADD copy.png" width="35" class="adds"/></span></p>
@@ -87,8 +110,8 @@ $(document).ready(function(){
 			<div class="redeem makebtn" style="margin-top: 5px;" id="buyIT">
 			<!--<a href="payment.html" class="makebtn" id="makebtn" >!-->BUY IT NOW</div>
 
-			<div class="redeem" style="margin-top: 40px;">
-			<a class="makebtn" id="makebtn0" >ADD TO CART</a>
+			<div class="makebtn" style="margin-top: 20px;" type="button" id="addToc" name="Acart" >
+			ADD TO CART</div>
 		</div>
 		</div>
 		<div class="pjs">
@@ -127,6 +150,9 @@ $(document).ready(function(){
 	 </div>
 </div>
 </div>
-
+<div class="share hide">
+	<img src="images/shareimage.png" / >
+	<button class="cancelbtn">Cancel</button>
+</div>
 </body>
 </html>
