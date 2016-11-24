@@ -20,7 +20,15 @@
 
 </style>
 <script>
-
+$(document).ready(function(){
+	var url=location.href;  
+    var tmp1=url.split("?")[1];  
+    var tmp2=tmp1.split("&")[0];  
+    var tmp3=tmp2.split("=")[1];
+    $(".nubs").text(tmp3);
+    var men = $(".menoy").text();
+    $(".menoy").text(parseInt(men)*parseInt(tmp3));
+});
 </script>
 </head>
 <body>
@@ -59,7 +67,7 @@
 	</div>
 	<div class="payShop">
 	 	 <p>ORDER SUMMARY:</p>
-	 	 <p>Items(1): <span class="paymoneys">30 points</span></p>
+	 	 <p>Items(<span class="nubs">1</span>): <span class="paymoneys"><span class="menoy">30</span> points</span></p>
 	 </div>
 </div>
 <div class="footer">

@@ -15,6 +15,7 @@
 <script type="text/javascript" src="js/jquery.min.js" ></script>
 <script type="text/javascript" src="js/yxMobileSlider.js" ></script>
 <script type="text/javascript" src="js/main.js" ></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
 <title>Home</title>
 <style type="text/css">
 </style>
@@ -79,7 +80,7 @@
 						<ul>
 							<li><a href="payment.html"><img src="images/icons/BUYb.png" width="28px"/> <span >BUY IT NOW</span></a></li>
 							<li><img src="images/icons/cart1.png"  id="cart1" width="25px"/> <span>ADD TO CART</span></li>
-							<li><img src="images/icons/share.png" id="share" width="21px"/> <span>&nbsp;SHARE</span></li>
+							<li class="sharebtn"><img src="images/icons/share.png" id="share" width="21px"/> <span>&nbsp;SHARE</span></li>
 							
 						</ul>
 						<!-- 向下的三角形 -->
@@ -200,7 +201,7 @@
 						<ul>
 							<li><a href="payment.html"><img src="images/icons/BUYb.png" width="28px"/> <span >BUY IT NOW</span></a></li>
 							<li><img src="images/icons/cart1.png"  id="cart1" width="25px"/> <span>ADD TO CART</span></li>
-							<li><img src="images/icons/share.png" id="share" width="21px"/> <span>&nbsp;SHARE</span></li>
+							<li ><img src="images/icons/share.png" id="share" width="21px"/> <span>&nbsp;SHARE</span></li>
 							
 						</ul>
 						<!-- 向下的三角形 -->
@@ -283,8 +284,10 @@
 		</div>
 	</div>
 </div>
-<div class="share">
-	<img src="images/shareimage.png"/ width="360px">
+<div class="share hide">
+	<img src="images/shareimage.png" / >
+	<button class="cancelbtn">Cancel</button>
+</div>
 </div>
 </body>
 </html>

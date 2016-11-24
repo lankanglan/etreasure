@@ -35,12 +35,17 @@ $(document).ready(function(){
 			  var nuit = parseInt(nu)+1;
 			  $(this).parents("p").find(".nubs").val(nuit);
 		 });
-		 touch.on('.subt', 'tap', function(ev){
+		touch.on('.subt', 'tap', function(ev){
 			  var nu = $(this).parents("p").find(".nubs").val();
 			  if(parseInt(nu)>0){
 				  var nuit = parseInt(nu)-1;
 				  $(this).parents("p").find(".nubs").val(nuit);
 			  }
+		 });
+		 touch.on('#buyIT', 'tap', function(ev){
+			  var nu = $(".nubs").val();
+			  var myurl="payment.html"+"?"+"number="+nu; 
+            		window.location.assign(myurl); 
 		 });
 	});
 </script>
@@ -79,8 +84,8 @@ $(document).ready(function(){
 		<div class="buyP">
 			<p class="Chosenumber"><span><img src="images/icons/MINU copy.png" width="35" class="subt"/></span><span class="numbers"><input type="text" value="1" name="nubs" class="nubs"/>qty.</span><span><img  src="images/icons/ADD copy.png" width="35" class="adds"/></span></p>
 
-			<div class="redeem" style="margin-top: 5px;">
-			<a href="payment.html" class="makebtn" id="makebtn" >BUY IT NOW</a></div>
+			<div class="redeem makebtn" style="margin-top: 5px;" id="buyIT">
+			<!--<a href="payment.html" class="makebtn" id="makebtn" >!-->BUY IT NOW</div>
 
 			<div class="redeem" style="margin-top: 40px;">
 			<a class="makebtn" id="makebtn0" >ADD TO CART</a>

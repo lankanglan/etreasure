@@ -21,7 +21,9 @@
 	 			$(".cirle").find("img").attr("src","images/icons/more.png");
 	 		}
 		});
+
 	});
+
 $(document).ready(function(){
 	touch.on('#home1', 'tap', function(ev){
 			 $('#home1').attr('class','home1');
