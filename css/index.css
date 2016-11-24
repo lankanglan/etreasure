@@ -197,7 +197,8 @@ body {
 }
 .shops ul li:first-child img{
 	width: 100%;
-}.shops ul li:last-child{
+}
+.shops ul li:last-child{
 	width: 64%;
 	font-size: 16px;
 	color: #585656;
@@ -211,6 +212,7 @@ body {
 .shops ul li p a{
     text-decoration: none;
     color:#585656;
+    font-size: 16px;
 }
 .cirle{
 	position: absolute;

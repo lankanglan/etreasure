@@ -27,7 +27,7 @@
 		});
 		$(".cancelbtn").click(function(){
 			 $(".share").addClass("hide");
-			 $(".sharebtn").find("img").attr("src","images/icons/sharea.png");
+			 $(".sharebtn").find("img").attr("src","images/icons/share.png");
 			 $(".sharebtn").css("color","#898989");
 		});
 		
@@ -39,9 +39,6 @@ $(document).ready(function(){
 		 });
 		 touch.on('#vote', 'tap', function(ev){
 			  $(this).toggleClass('votea');
-		 });
-		 touch.on('#share', 'tap', function(ev){
-			  $(this).toggleClass('sharea');
 		 });
 		  touch.on('.adds', 'tap', function(ev){
 			  var nu = $(this).parents("p").find(".nubs").val();
