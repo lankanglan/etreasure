@@ -261,7 +261,7 @@ body {
 }
 /*Triangle*/
 .triangle_border_down{
-    margin-left:88%;
+    margin-left:85%;
     position: absolute; 
     bottom: -20.5px;
     z-index: 80;

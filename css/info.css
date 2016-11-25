@@ -5,7 +5,15 @@
 	width: 56%;
 	line-height: 40px;
 }
-.thead li p{
+.thead ul li p{
+	color:#898989;
+	font-size: 14px;
+}
+.thead ul li{
+	vertical-align: middle;
+}
+.thead ul li:last-child p{
+	padding-top: 5px;
 	color:#6F1C23;
 	font-size: 20px;
 }
@@ -71,11 +79,13 @@
 	border: 2px solid #858585;
 }
 .facebtn img{
+		vertical-align: middle;
     margin-right: 12px;
     text-align: center;
     	line-height: 48px;
 }
 .googlebtn img{
+		vertical-align: middle;
     margin-right: 12px;
     text-align: center;
     	line-height: 48px;

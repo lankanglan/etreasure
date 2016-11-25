@@ -16,6 +16,47 @@
 <script src="js/zepto.min.js"></script>
 <title>coupondetail</title>
 <style type="text/css">
+.nthead{
+	width: 100%;
+	margin: 0 auto;
+}
+.nthead ul li{
+	display: inline-block;
+	vertical-align: middle;
+	 
+}
+.nthead ul li img{
+	vertical-align: -webkit-baseline-middle;
+}
+.nthead ul li:first-child{
+	width: 18%;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+}
+.nthead ul li:.cartsChange{
+	width: 16%;
+	height: 33px;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+	background: url(../images/icons/cart.png) center bottom no-repeat;
+	background-size: 28px 29px;
+}
+
+.nthead ul .about{
+	width: 62%;
+	line-height: 40px;
+}
+.nthead ul .about .checks img{
+	vertical-align: middle;
+	margin-left: 5px;
+}
+.nthead ul .about .checks input{
+	width: 85%;
+	line-height: 38px;
+	border:none;
+}
 
 </style>
 <script>
@@ -31,7 +72,7 @@ $(document).ready(function(){
 <body>
 <div class="main">
 <div class="header">
-	<div class="thead">
+	<div class="nthead">
 		<ul>
 			<a href="home.html"><li><img id="menus" src="images/icons/back l.png" width="30px"/></li></a>
 			<li class="about">
@@ -40,7 +81,7 @@ $(document).ready(function(){
 					<input type="text" width="80%" />
 				</div>
 			</li>
-			<a href="cart.html"><li class="cartsChange"><p class="cartnub" style="display: none;">0</p></li></a>
+			<a href="cart.html"><li class="cartsChange"><img src="images/icons/cart.png" width="30px"/></li></a>
 		</ul>
 	</div>
 </div>
