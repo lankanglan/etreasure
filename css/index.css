@@ -89,14 +89,18 @@ body {
 	width: 100%;
 	background-color: #fff;
 	border-radius: 5px;
-}
 
+}
 .thead ul .about .checks img{
 	vertical-align: middle;
 	margin-left: 5px;
 }
+.near{
+    padding-left: 2px;
+	border-left: 1px solid #898989;
+}
 .thead ul .about .checks input{
-	width: 85%;
+	width: 57%;
 	line-height: 38px;
 	border:none;
 }
