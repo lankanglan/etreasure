@@ -22,6 +22,10 @@
 	color: #6f1c23;
 	text-decoration: none;
 }
+.thead ul .about .checks img{
+	vertical-align: middle;
+	margin-left: -5px;
+}
 .natMenus ul li a{
     	color: #6f1c23;
 	text-decoration: none;
