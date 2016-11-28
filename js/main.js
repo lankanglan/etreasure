@@ -106,4 +106,10 @@ $(document).ready(function(){
 			  $(".cartnub").text(nuit);
 		 });
 
+	 touch.on('#guan', 'tap', function(ev){
+		var parents = $(this).parents(".popup");
+		 $(parents).remove();
+	});
+
+
 	});
