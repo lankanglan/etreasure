@@ -159,8 +159,11 @@ body {
 	background-color: #e3e3e3;
 	z-index: 3001;
 	margin-left: 5%;
-	margin-top:-900px;
+	margin-top:-800px;
 	position: absolute;
+		-webkit-box-shadow:0 0 5px #aaa;  
+  	-moz-box-shadow:0 0 5px #aaa;  
+  	box-shadow:0 0 5px #aaa;
 }
 .popup img{
 	margin-left:88%;
