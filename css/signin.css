@@ -124,6 +124,9 @@
 	font-size: 16px;
 	display: inline-block;
 }
+.account .newaccount a img {
+	text-decoration: none;
+}
 .account .newaccount{
 	margin-left:40%;
 	color:#000;
