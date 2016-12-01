@@ -554,25 +554,36 @@ text-decoration: none;
 	margin-bottom: 5px;
 }
 
-.menuF ul li{
-	display: inline-block;
-	width: 48%;
-	margin-top: 25px;
+.menuF ul{
+	position: relative;
+    width: 100%;
+    margin:0 auto;
+    border-bottom: 1px solid #9e9e9e;
+    padding-bottom: 15px;
+	padding-top: 15px;
 	font-size: 13px;
 	color: #6f1c23;
+	text-align: left;
 }
-.menuF{
+.menuF ul li{
+	display: inline-block;
+	position: relative;
+	padding-left: 20px;
+}
+
+.menuF a{
    text-decoration: none;
+   color: #6f1c23;
+}
+.menuF .leftc{
+   padding-left: 20px;
 }
 .fWhere a p{
      color: #6f1c23;
      	text-decoration: none;
 }
-.menuF ul li img{
-	margin-bottom: 5px;
-}
 .colses{
-	margin-top: 40px;
+	margin-top: 30px;
 }
 .share{
 	text-align: center;
