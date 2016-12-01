@@ -17,8 +17,18 @@
 	font-family: Arial;
 	font-size: 16px;
 	line-height: 48px;
-	text-decoration: none;	
-		border: 2px solid #6f1c23;
+	text-decoration: none;		
+}
+.added{
+	line-height: 60px;
+	padding: 0 20px;
+	background-color: #ccc;
+	position: absolute;
+	z-index: 10;
+	top:480px;
+	left:25%;
+	border-radius: 40px;
+	font-size: 20px;
 }
 .favora{
 	height: 30px;
