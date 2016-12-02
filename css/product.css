@@ -3,6 +3,26 @@
 	width: 62%;
 	line-height: 40px;
 }
+.redeem{
+	width: 80%;
+	position: relative;
+	height: 48px;
+	display: inline-block;
+	text-align: center;
+	padding:8px 20px; 
+	border-radius: 40px;
+	cursor: pointer;	
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 48px;
+	text-decoration: none;
+	margin-top:-30px;
+	color: #fff;	
+	background: #6f1c23;	
+}
+#buyIT{
+	
+}
 .makebtn{
 	width: 80%;
 	position: relative;
@@ -11,24 +31,15 @@
 	text-align: center;
 	padding:8px 20px; 
 	border-radius: 40px;
-	cursor: pointer;
-	color: #fff;	
-	background: #6f1c23;
+	cursor: pointer;	
 	font-family: Arial;
 	font-size: 16px;
 	line-height: 48px;
-	text-decoration: none;		
-}
-.added{
-	line-height: 60px;
-	padding: 0 20px;
-	background-color: #ccc;
-	position: absolute;
-	z-index: 10;
-	top:480px;
-	left:25%;
-	border-radius: 40px;
-	font-size: 20px;
+	text-decoration: none;
+	margin-top:-30px;
+	background: #fff;
+	border: 2px solid #6f1c23;
+	color: #6f1c23;		
 }
 .favora{
 	height: 30px;
@@ -44,12 +55,6 @@
 	height: 30px;
 	background: url(../images/icons/sharea.png) center center no-repeat;
 	background-size: 30px;
-}
-#addToc{
-	margin-top:-30px;
-	background: #fff;
-	border: 2px solid #6f1c23;
-	color: #6f1c23;
 }
 .makebtn a{
     text-decoration: none;

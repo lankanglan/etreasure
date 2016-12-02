@@ -16,12 +16,10 @@
 <script src="js/zepto.min.js"></script>
 <title>product</title>
 <style type="text/css">
-#addToc:active {
-  background-color: #666666;
-  border: #666666;
-}
-#addToc:active {
-	 content:'Set Your Text Here';  
+.addchange{
+	background-color:#6f1c23;
+	color: #fff;
+	border:1px solid #6f1c23;
 }
 </style>
 <script>
@@ -68,7 +66,25 @@ $(document).ready(function(){
 			  var nuit = parseInt(nu)+1;
 			  $(".cartnub").text(nuit);
 		 });
-		 
+
+		 touch.on('.makebtn', 'tap', function(ev){
+			  	$(this).toggleClass("addchange");
+			  $(this).html("Added in cart");
+			setTimeout(function(){
+					$(".makebtn").toggleClass("addchange");
+			  $(".makebtn").html("ADD TO CART");
+   },500);
+		 });
+
+// setInterval(function(){ 
+//    // toggle the class every five second
+//    $('#donate').toggleClass('wiggle');  
+//    setTimeout(function(){
+//      // toggle back after 1 second
+//      $('#donate').toggleClass('wiggle');  
+//    },1000);
+
+// },5000);
 		 touch.on('#buyIT', 'tap', function(ev){
 			  var nu = $(".nubs").val();
 			  var myurl="payment.html"+"?"+"number="+nu; 
@@ -112,7 +128,7 @@ $(document).ready(function(){
 		<div class="buyP">
 			<p class="Chosenumber"><span><img src="images/icons/MINU copy.png" width="35" class="subt"/></span><span class="numbers"><input type="text" value="1" name="nubs" class="nubs"/>qty.</span><span><img  src="images/icons/ADD copy.png" width="35" class="adds"/></span></p>
 
-			<div class="redeem makebtn" style="margin-top: 5px;" id="buyIT">
+			<div class="redeem" style="margin-top: 5px;" id="buyIT">
 			<!--<a href="payment.html" class="makebtn" id="makebtn" >!-->BUY IT NOW</div>
 
 			<div class="makebtn" style="margin-top: 20px;" type="button" id="addToc" name="Acart" >
