@@ -1,16 +1,31 @@
-.makebtn{
-	width: 70%;	
-}.proceed{
+
+.proceed{
 	width: 100%;
 	text-align: center;
 }
 .proceed p{
  	margin-top:15px;
-	font-size: 14px;
+	font-size: 16px;
 	color: #000000;
 }
 .proceed p .money{
 	color:#6e1c22 ;
+}
+.paybtn{
+	width: 80%;
+	position: relative;
+	height: 48px;
+	display: inline-block;
+	text-align: center;
+	padding:8px 10px; 
+	border-radius: 40px;
+	cursor: pointer;	
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 48px;
+	text-decoration: none;
+	color: #fff;	
+	background: #6f1c23;	
 }
 .delete{
 	text-align: center;
