@@ -1,3 +1,4 @@
+
 .thead{
     color: #fff;
     text-align: center;
@@ -25,6 +26,18 @@
 .thead ul .about .checks img{
 	vertical-align: middle;
 	margin-left: -5px;
+}
+
+.firstp{
+	width: 100%;
+	text-align: center;
+	background-color: #6f1c23;
+	color: #fff;
+	padding: 16px 0;
+	font-size: 14px;
+}
+.firstp p{
+ padding-top: 4px;
 }
 .natMenus ul li a{
     	color: #6f1c23;

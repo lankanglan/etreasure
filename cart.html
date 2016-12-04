@@ -18,7 +18,13 @@
 <script type="text/javascript" src="js/main.js" ></script>
 <title>cart</title>
 <style type="text/css">
-
+.main .contents{
+	padding-top: 100px;
+}
+.header{
+	position: fixed;
+	z-index: 1800;
+}
 </style>
 <script>
 $(document).ready(function(){
@@ -46,11 +52,12 @@ $(document).ready(function(){
 			<a href="cart.html"><li class="cartsChange"><p class="cartnub" style="display: none;">0</p></li></a>
 		</ul>
 	</div> 
+	<div class="firstp">
+		<p>You have <span style="font-size: 20px;">1930</span> points</p>
+	</div>
 </div>
 <div class="contents" style="margin-bottom: 110px;">
-<div class="firstp">
-		<p>You have <span style="font-size: 20px;">1930</span> points</p>
-	</div> 
+ 
 	 <div class="proceed">
 	 	<p>Cart subtotal(3 items)：<span class="money">150 points</span></p>
 	 	<div class="redeem" style="margin-top: 20px;" >

@@ -1,8 +1,14 @@
 /*coupons*/
-.sss{
-	width: 100%;
-	height: 15px;
-	background:#6f1c23;
+.main .contents{
+	padding-top: 100px;
+}
+.header{
+	position: fixed;
+	z-index: 1800;
+}
+.natMenus{
+	position: fixed;
+	z-index: 1799;
 }
 .purchases .cpsp:last-child{
 	border-bottom: none;
@@ -25,6 +31,9 @@
 }
 .purchases .cpsp1:last-child{
 	border-bottom: none;
+}
+.purchases{
+	padding-top: 30px;
 }
 .cpsp1{
 	width:90%;

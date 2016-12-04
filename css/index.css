@@ -41,7 +41,7 @@ body {
 .header{
 	width:100%;
 	background-color: #6f1c23;
-	padding: 15px 0;
+	padding-top: 15px;
 }
 .thead{
 	width: 100%;
@@ -104,13 +104,17 @@ body {
 	line-height: 38px;
 	border:none;
 }
+
 .firstp{
 	width: 100%;
 	text-align: center;
 	background-color: #6f1c23;
 	color: #fff;
-	padding: 5px 0;
+	padding: 4px 0;
 	font-size: 14px;
+}
+.firstp p{
+ padding-top: 4px;
 }
 .firstps{
 	width: 98%;
