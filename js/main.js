@@ -111,5 +111,11 @@ $(document).ready(function(){
 		 $(parents).remove();
 	});
 
+	touch.on('.add', 'tap', function(ev){
+			  $(this).html("Added In Cart");
+			setTimeout(function(){
+			  $(".add").html("ADD TO CART");
+   },500);
+		 });
 
 	});

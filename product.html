@@ -69,22 +69,13 @@ $(document).ready(function(){
 
 		 touch.on('.makebtn', 'tap', function(ev){
 			  	$(this).toggleClass("addchange");
-			  $(this).html("Added in cart");
+			  $(this).html("Added In Cart");
 			setTimeout(function(){
 					$(".makebtn").toggleClass("addchange");
 			  $(".makebtn").html("ADD TO CART");
    },500);
 		 });
 
-// setInterval(function(){ 
-//    // toggle the class every five second
-//    $('#donate').toggleClass('wiggle');  
-//    setTimeout(function(){
-//      // toggle back after 1 second
-//      $('#donate').toggleClass('wiggle');  
-//    },1000);
-
-// },5000);
 		 touch.on('#buyIT', 'tap', function(ev){
 			  var nu = $(".nubs").val();
 			  var myurl="payment.html"+"?"+"number="+nu; 
