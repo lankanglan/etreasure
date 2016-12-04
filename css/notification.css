@@ -1,5 +1,18 @@
 
-.thead{
+.main .contents{
+	padding-top: 100px;
+}
+.header{
+	position: fixed;
+	z-index: 1800;
+}
+.natMenus{
+	position: fixed;
+	z-index: 1799;
+}
+.nations{
+	margin-top: 60px;
+}.thead{
     color: #fff;
     text-align: center;
     height: 30px;
