@@ -170,20 +170,25 @@ body {
 	margin-top:20px;
 }
 .popup .desc{
+	color: #6f1c23;	
+	margin-left: 15%;
+	width: 80%;
 	font-size: 18px;
-	margin-left: 8%;
-	margin-top: 30px;
+	text-align: left;
+	margin-top: 20px;
+}
+.popup .desc p{
+		line-height: 20px;
 }
 .newaccount{
     position: relative;
-	margin-top: 40px;
+	margin-top: 30px;
 }
 .accountbtn{
-	margin-left: 30px;
+	margin-left: 38px;
     text-align:center;
-	margin-top:5px;
 	height: 40px;
-	padding:3px 25px; 
+	padding:3px 28px; 
 	border-radius: 30px;
 	cursor: pointer;
 	color: #fff;	
@@ -193,9 +198,22 @@ body {
 	line-height: 40px;
 	display: inline-block;
 }
-.accountbtn p{
-    color:#FFF;
+.up{
+	margin-left: 30px;
+    text-align:center;
+	height: 40px;
+	padding:3px 28px; 
+	border-radius: 30px;
+	cursor: pointer;
+	color: #6f1c23;	
+	background: #e3e3e3;
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 40px;
+	display: inline-block;
+	border:2px solid #6f1c23;
 }
+
 .accountbtn a{
     text-decoration: none;
 }
