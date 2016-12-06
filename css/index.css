@@ -626,5 +626,88 @@ text-decoration: none;
 	height: 80px;
 	font-size: 16px;
 	background: #fff;
+}
 
+
+
+
+.homeMeu dl dt .child1{
+	height: 40px;
+	background: url(../images/icons/toys.png) center center no-repeat;
+	background-size: 40px;
+}
+.homeMeu dl dt .child2{
+	height: 40px;
+	background: url(../images/icons/toysa.png) center center no-repeat;
+	background-size: 40px;
+}
+.homeMeu dl dt .auto1{
+	height: 40px;
+	background: url(../images/icons/car.png) center center no-repeat;
+	background-size: 40px;
+}
+.homeMeu dl dt .auto2{
+	height: 40px;
+	background: url(../images/icons/cara.png) center center no-repeat;
+	background-size: 40px;
+}
+.homeMeu dl dt .book1{
+	height: 38px;
+	background: url(../images/icons/book.png) center center no-repeat;
+	background-size: 30px;
+}
+.homeMeu dl dt .book2{
+	height: 38px;
+	background: url(../images/icons/booka.png) center center no-repeat;
+	background-size: 30px;
+}
+.homeMeu dl dt .computers1{
+	height: 35px;
+	background: url(../images/icons/computers.png) center center no-repeat;
+	background-size: 28px;
+}
+.homeMeu dl dt .computers2{
+	height: 35px;
+	background: url(../images/icons/computersa.png) center center no-repeat;
+	background-size: 28px;
+}
+.homeMeu dl dt .phone1{
+	height: 38px;
+	background: url(../images/icons/phone.png) center center no-repeat;
+	background-size: 38px;
+}
+.homeMeu dl dt .phone2{
+	height: 38px;
+	background: url(../images/icons/phonea.png) center center no-repeat;
+	background-size: 38px;
+}
+.homeMeu dl dt .sofa1{
+	height: 35px;
+	background: url(../images/icons/sofa.png) center center no-repeat;
+	background-size: 45px;
+}
+.homeMeu dl dt .sofa2{
+	height: 35px;
+	background: url(../images/icons/sofaa.png) center center no-repeat;
+	background-size: 45px;
+}
+.homeMeu dl dt .watch1{
+	height: 35px;
+	background: url(../images/icons/watch.png) center center no-repeat;
+	background-size: 30px;
+}
+.homeMeu dl dt .watch2{
+	height: 35px;
+	background: url(../images/icons/watcha.png) center center no-repeat;
+	background-size: 30px;
+}
+.homeMeu dl dt .FOOD1{
+	height: 40px;
+	background: url(../images/icons/FOOD.png) center center no-repeat;
+	background-size: 40px;
+}
+.homeMeu dl dt .FOOD2{
+	height: 40px;
+	background: url(../images/icons/FOODa.png) center center no-repeat;
+	background-size: 40px;
 }

@@ -27,7 +27,7 @@
 		});
 		$(".cancelbtn").click(function(){
 			 $(".share").addClass("hide");
-			 $(".sharebtn").css("color","#898989");
+			 $(".sharebtn").css("color","#6f1c23");
 		});
 		
 
@@ -35,28 +35,28 @@
 
 $(document).ready(function(){
 	touch.on('#home1', 'tap', function(ev){
-			 $('#home1').attr('class','home1');
+			 $('#home1').attr('class','home2');
 			 $('#store1').attr('class','store1');
 			 $('#nations1').attr('class','nations1');
 			 $('#account1').attr('class','account1');
 			 
 		 });
 		 touch.on('#store1', 'tap', function(ev){
-			 $('#home1').attr('class','home2');
+			 $('#home1').attr('class','home1');
 			 $('#store1').attr('class','store2');
 			 $('#nations1').attr('class','nations1');
 			 $('#account1').attr('class','account1');
 			 
 		 });
 		 touch.on('#nations1', 'tap', function(ev){
-			 $('#home1').attr('class','home2');
+			 $('#home1').attr('class','home1');
 			 $('#store1').attr('class','store1');
 			 $('#nations1').attr('class','nations2');
 			 $('#account1').attr('class','account1');
 			 
 		 });
 		 touch.on('#account1', 'tap', function(ev){
-			 $('#home1').attr('class','home2');
+			 $('#home1').attr('class','home1');
 			 $('#store1').attr('class','store1');
 			 $('#nations1').attr('class','nations1');
 			 $('#account1').attr('class','account2');
@@ -111,11 +111,94 @@ $(document).ready(function(){
 		 $(parents).remove();
 	});
 
-	touch.on('.add', 'tap', function(ev){
-			  $(this).html("Added In Cart");
+	touch.on('#addToc', 'tap', function(ev){
+			  $(".add").html("Added In Cart");
 			setTimeout(function(){
 			  $(".add").html("ADD TO CART");
    },500);
 		 });
+
+	touch.on('#child1', 'tap', function(ev){
+			 $('#child1').attr('class','child2');
+			 $('#auto1').attr('class','auto1');
+			 $('#book1').attr('class','book1');
+			 $('#computers1').attr('class','computers1');
+			 $('#phone1').attr('class','phone1');
+			 $('#sofa1').attr('class','sofa1');
+			 $('#watch1').attr('class','watch1');
+			 $('#FOOD1').attr('class','FOOD1');	 
+		 });
+
+	touch.on('#auto1', 'tap', function(ev){
+			 $('#child1').attr('class','child1');
+			 $('#auto1').attr('class','auto2');
+			 $('#book1').attr('class','book1');
+			 $('#computers1').attr('class','computers1');
+			 $('#phone1').attr('class','phone1');
+			 $('#sofa1').attr('class','sofa1');
+			 $('#watch1').attr('class','watch1');
+			 $('#FOOD1').attr('class','FOOD1');	 
+		 });
+		 	touch.on('#book1', 'tap', function(ev){
+			 $('#child1').attr('class','child1');
+			 $('#auto1').attr('class','auto1');
+			 $('#book1').attr('class','book2');
+			 $('#computers1').attr('class','computers1');
+			 $('#phone1').attr('class','phone1');
+			 $('#sofa1').attr('class','sofa1');
+			 $('#watch1').attr('class','watch1');
+			 $('#FOOD1').attr('class','FOOD1');	 
+		 });
+		 	 	touch.on('#computers1', 'tap', function(ev){
+			 $('#child1').attr('class','child1');
+			 $('#auto1').attr('class','auto1');
+			 $('#book1').attr('class','book1');
+			 $('#computers1').attr('class','computers2');
+			 $('#phone1').attr('class','phone1');
+			 $('#sofa1').attr('class','sofa1');
+			 $('#watch1').attr('class','watch1');
+			 $('#FOOD1').attr('class','FOOD1');	 
+		 });
+		 	 	touch.on('#phone1', 'tap', function(ev){
+			 $('#child1').attr('class','child1');
+			 $('#auto1').attr('class','auto1');
+			 $('#book1').attr('class','book1');
+			 $('#computers1').attr('class','computers1');
+			 $('#phone1').attr('class','phone2');
+			 $('#sofa1').attr('class','sofa1');
+			 $('#watch1').attr('class','watch1');
+			 $('#FOOD1').attr('class','FOOD1');	 
+		 });
+		 	 	 	 	touch.on('#sofa1', 'tap', function(ev){
+			 $('#child1').attr('class','child1');
+			 $('#auto1').attr('class','auto1');
+			 $('#book1').attr('class','book1');
+			 $('#computers1').attr('class','computers1');
+			 $('#phone1').attr('class','phone1');
+			 $('#sofa1').attr('class','sofa2');
+			 $('#watch1').attr('class','watch1');
+			 $('#FOOD1').attr('class','FOOD1');	 
+		 });
+		 	touch.on('#watch1', 'tap', function(ev){
+			 $('#child1').attr('class','child1');
+			 $('#auto1').attr('class','auto1');
+			 $('#book1').attr('class','book1');
+			 $('#computers1').attr('class','computers1');
+			 $('#phone1').attr('class','phone1');
+			 $('#sofa1').attr('class','sofa1');
+			 $('#watch1').attr('class','watch2');
+			 $('#FOOD1').attr('class','FOOD1');	 
+		 });
+		 	touch.on('#FOOD1', 'tap', function(ev){
+			 $('#child1').attr('class','child1');
+			 $('#auto1').attr('class','auto1');
+			 $('#book1').attr('class','book1');
+			 $('#computers1').attr('class','computers1');
+			 $('#phone1').attr('class','phone1');
+			 $('#sofa1').attr('class','sofa1');
+			 $('#watch1').attr('class','watch1');
+			 $('#FOOD1').attr('class','FOOD2');	 
+		 });
+
 
 	});
