@@ -115,3 +115,9 @@
     border-bottom: 1px solid #898989;
     padding-bottom: 6px;
 }
+.pjs p{
+  font-size: 14px;
+}
+.pjs p span{
+  font-size: 12px;
+}
